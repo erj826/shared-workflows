@@ -1,5 +1,41 @@
 # Changelog
 
+## [4.0.0](https://github.com/erj826/shared-workflows/compare/send-slack-message/v3.0.2...send-slack-message/v4.0.0) (2026-11-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* **get-vault-secrets:** remove export_env option, use JSON output always ([#1957](https://github.com/erj826/shared-workflows/issues/1957))
+
+### 🎉 Features
+
+* **get-vault-secrets:** remove export_env option, use JSON output always ([#1957](https://github.com/erj826/shared-workflows/issues/1957)) ([84e8abf](https://github.com/erj826/shared-workflows/commit/84e8abf0d3cd31cc8fa01d0e2c629a96864a108a))
+
+
+### 🐛 Bug Fixes
+
+* **create-github-app-token:** trigger release-please for reverted gatb change ([#1988](https://github.com/erj826/shared-workflows/issues/1988)) ([e6c8753](https://github.com/erj826/shared-workflows/commit/e6c875364b041be8288bcb1bee15f79cea31ffb1))
+* reference sibling actions directly instead of checkout ([#2032](https://github.com/erj826/shared-workflows/issues/2032)) ([614ae58](https://github.com/erj826/shared-workflows/commit/614ae58b964b32c08d190dde334a583cc8373723))
+* **send-slack-message:** default payload-templated to false ([#2030](https://github.com/erj826/shared-workflows/issues/2030)) ([b020d35](https://github.com/erj826/shared-workflows/commit/b020d35e39552b691c35e02ec5cfcd4cda6159d7))
+
+
+### 📝 Documentation
+
+* generate action and workflow input/output tables ([#2276](https://github.com/erj826/shared-workflows/issues/2276)) ([ddcc1f8](https://github.com/erj826/shared-workflows/commit/ddcc1f84239514abefa7b02481bfcc24bd88c4ca))
+
+
+### 🔧 Miscellaneous Chores
+
+* **deps:** update grafana/shared-workflows/get-vault-secrets action to v2.0.1 ([#2268](https://github.com/erj826/shared-workflows/issues/2268)) ([35bf148](https://github.com/erj826/shared-workflows/commit/35bf148d529e6ec81707d291aa73c7f3cda949de))
+* **deps:** update slackapi/slack-github-action action to v3 ([#1809](https://github.com/erj826/shared-workflows/issues/1809)) ([ae4a89e](https://github.com/erj826/shared-workflows/commit/ae4a89e4d3bc15c355480ed6aa51b1fd7e5d5158))
+* **deps:** update slackapi/slack-github-action action to v3.0.2 ([#1902](https://github.com/erj826/shared-workflows/issues/1902)) ([3f06e5e](https://github.com/erj826/shared-workflows/commit/3f06e5ea575feea21335d788ba4a18473f434355))
+* **deps:** update slackapi/slack-github-action action to v3.0.3 ([#1921](https://github.com/erj826/shared-workflows/issues/1921)) ([860a297](https://github.com/erj826/shared-workflows/commit/860a2973c4503ce06a7aea9fc9f054bade901d1f))
+* **deps:** update slackapi/slack-github-action action to v3.0.5 ([#2166](https://github.com/erj826/shared-workflows/issues/2166)) ([6e348ef](https://github.com/erj826/shared-workflows/commit/6e348efd535b34ffa4d49b0d00b754f37a12738d))
+* **main:** release send-slack-message 2.0.5 ([#1545](https://github.com/erj826/shared-workflows/issues/1545)) ([eb1fbd8](https://github.com/erj826/shared-workflows/commit/eb1fbd807f87aea8f40ff08dc9cd02872cad55b3))
+* **main:** release send-slack-message 3.0.0 ([#1938](https://github.com/erj826/shared-workflows/issues/1938)) ([e288f43](https://github.com/erj826/shared-workflows/commit/e288f43e2954fe65ce3dadfcc418dacb638cf7e1))
+* **main:** release send-slack-message 3.0.1 ([#2031](https://github.com/erj826/shared-workflows/issues/2031)) ([952ec38](https://github.com/erj826/shared-workflows/commit/952ec381447a2002ff76103395d37bf8b4c7c3f5))
+* **main:** release send-slack-message 3.0.2 ([#2034](https://github.com/erj826/shared-workflows/issues/2034)) ([551bc8d](https://github.com/erj826/shared-workflows/commit/551bc8d50017d3e95d5da3f8a4826e733a208dc0))
+
 ## [3.0.2](https://github.com/grafana/shared-workflows/compare/send-slack-message/v3.0.1...send-slack-message/v3.0.2) (2026-06-10)
 
 
