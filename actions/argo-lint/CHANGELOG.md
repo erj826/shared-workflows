@@ -1,5 +1,31 @@
 # Changelog
 
+## [1.2.0](https://github.com/erj826/shared-workflows/compare/argo-lint/v1.1.1...argo-lint/v1.2.0) (2026-11-09)
+
+
+### 🎉 Features
+
+* **argo:** bump default Argo CLI to 3.7.10 and make version configurable in argo-lint ([f684d78](https://github.com/erj826/shared-workflows/commit/f684d7826a961af39afa358f2e3f041fab0f5595))
+* **argo:** bump default Argo CLI to 3.7.10, make version configurable ([#1814](https://github.com/erj826/shared-workflows/issues/1814)) ([f684d78](https://github.com/erj826/shared-workflows/commit/f684d7826a961af39afa358f2e3f041fab0f5595))
+
+
+### 🐛 Bug Fixes
+
+* **create-github-app-token:** trigger release-please for reverted gatb change ([#1988](https://github.com/erj826/shared-workflows/issues/1988)) ([e6c8753](https://github.com/erj826/shared-workflows/commit/e6c875364b041be8288bcb1bee15f79cea31ffb1))
+* reference sibling actions directly instead of checkout ([#2032](https://github.com/erj826/shared-workflows/issues/2032)) ([614ae58](https://github.com/erj826/shared-workflows/commit/614ae58b964b32c08d190dde334a583cc8373723))
+
+
+### 📝 Documentation
+
+* generate action and workflow input/output tables ([#2276](https://github.com/erj826/shared-workflows/issues/2276)) ([ddcc1f8](https://github.com/erj826/shared-workflows/commit/ddcc1f84239514abefa7b02481bfcc24bd88c4ca))
+
+
+### 🔧 Miscellaneous Chores
+
+* **deps:** update grafana/shared-workflows/setup-argo action to v1.2.1 ([#2095](https://github.com/erj826/shared-workflows/issues/2095)) ([8483e85](https://github.com/erj826/shared-workflows/commit/8483e856baf8ecdeb4b178504eb879b3e41a46cb))
+* **main:** release argo-lint 1.1.0 ([#1678](https://github.com/erj826/shared-workflows/issues/1678)) ([ef80df8](https://github.com/erj826/shared-workflows/commit/ef80df8c22d44c0e353da46db96c901a6a5a6d0d))
+* **main:** release argo-lint 1.1.1 ([#2007](https://github.com/erj826/shared-workflows/issues/2007)) ([620d887](https://github.com/erj826/shared-workflows/commit/620d8872be7b567064313295cd626f6e6e12b0ea))
+
 ## [1.1.1](https://github.com/grafana/shared-workflows/compare/argo-lint/v1.1.0...argo-lint/v1.1.1) (2026-06-10)
 
 
