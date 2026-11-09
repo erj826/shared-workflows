@@ -1,5 +1,40 @@
 # Changelog
 
+## [1.1.0](https://github.com/erj826/shared-workflows/compare/component-change-detection/v1.0.2...component-change-detection/v1.1.0) (2026-11-09)
+
+
+### 🎉 Features
+
+* replace dawidd6/action-download-artifact with first-party GitHub actions ([#1955](https://github.com/erj826/shared-workflows/issues/1955)) ([e378ca0](https://github.com/erj826/shared-workflows/commit/e378ca000c6166a44060ed3a3c987a53da14128d))
+
+
+### 🐛 Bug Fixes
+
+* **create-github-app-token:** trigger release-please for reverted gatb change ([#1988](https://github.com/erj826/shared-workflows/issues/1988)) ([e6c8753](https://github.com/erj826/shared-workflows/commit/e6c875364b041be8288bcb1bee15f79cea31ffb1))
+* **deps:** update module github.com/bmatcuk/doublestar/v4 to v4.10.0 ([#2203](https://github.com/erj826/shared-workflows/issues/2203)) ([fc7eca3](https://github.com/erj826/shared-workflows/commit/fc7eca3fa322beded321ca1cf7ad565a55363f1b))
+* **deps:** update module github.com/bmatcuk/doublestar/v4 to v4.10.2 ([#2315](https://github.com/erj826/shared-workflows/issues/2315)) ([a656099](https://github.com/erj826/shared-workflows/commit/a656099eb0699dc4cea415549c06f996364fc3b0))
+
+
+### 📝 Documentation
+
+* generate action and workflow input/output tables ([#2276](https://github.com/erj826/shared-workflows/issues/2276)) ([ddcc1f8](https://github.com/erj826/shared-workflows/commit/ddcc1f84239514abefa7b02481bfcc24bd88c4ca))
+
+
+### 🔧 Miscellaneous Chores
+
+* **deps:** update actions/download-artifact action to v8.0.2 ([#2355](https://github.com/erj826/shared-workflows/issues/2355)) ([ff77b7d](https://github.com/erj826/shared-workflows/commit/ff77b7d668a03745a3a334efc9c8e4a126c3b4c1))
+* **deps:** update actions/setup-go action to v6.4.0 ([#1837](https://github.com/erj826/shared-workflows/issues/1837)) ([170bd5b](https://github.com/erj826/shared-workflows/commit/170bd5b0ba3c2414519216fd5d7f0fe5a40e3f40))
+* **deps:** update actions/setup-go action to v6.5.0 ([#2145](https://github.com/erj826/shared-workflows/issues/2145)) ([67f1fea](https://github.com/erj826/shared-workflows/commit/67f1fea99eb1c85cc97bb621d3b3130381f623a9))
+* **deps:** update actions/setup-go action to v7 ([#2233](https://github.com/erj826/shared-workflows/issues/2233)) ([80e1047](https://github.com/erj826/shared-workflows/commit/80e1047e842e97d3cf0dc01269955fbede9b8932))
+* **deps:** update dawidd6/action-download-artifact action to v16 ([#1753](https://github.com/erj826/shared-workflows/issues/1753)) ([b71be18](https://github.com/erj826/shared-workflows/commit/b71be180de45d83fe3f1641ff8ced2b2d967c155))
+* **deps:** update dawidd6/action-download-artifact action to v18 ([#1812](https://github.com/erj826/shared-workflows/issues/1812)) ([e40c7fe](https://github.com/erj826/shared-workflows/commit/e40c7fecb195dd2644cd3991abf756782cbd4143))
+* **deps:** update dawidd6/action-download-artifact action to v19 ([#1822](https://github.com/erj826/shared-workflows/issues/1822)) ([4d6ff3e](https://github.com/erj826/shared-workflows/commit/4d6ff3ed5e93b9b5f229ca66ead5430fe9b421c7))
+* **deps:** update dawidd6/action-download-artifact action to v20 ([#1850](https://github.com/erj826/shared-workflows/issues/1850)) ([8027637](https://github.com/erj826/shared-workflows/commit/80276376018d7be3c868bc7ab37711db9ca5d7c2))
+* **deps:** update dawidd6/action-download-artifact action to v21 ([#1914](https://github.com/erj826/shared-workflows/issues/1914)) ([c083482](https://github.com/erj826/shared-workflows/commit/c083482fa9e363e80b376d0317172bc3f55ddb3d))
+* **deps:** update module github.com/go-logfmt/logfmt to v0.6.1 ([#2185](https://github.com/erj826/shared-workflows/issues/2185)) ([0e76b00](https://github.com/erj826/shared-workflows/commit/0e76b0012f40d2ce5798f06eb14824b95276a183))
+* **main:** release component-change-detection 1.0.1 ([#1744](https://github.com/erj826/shared-workflows/issues/1744)) ([817fc3d](https://github.com/erj826/shared-workflows/commit/817fc3da79afcb1e6340380c365ffb803ace5888))
+* **main:** release component-change-detection 1.0.2 ([#1990](https://github.com/erj826/shared-workflows/issues/1990)) ([fe8de3f](https://github.com/erj826/shared-workflows/commit/fe8de3f671cb0f716fb6c21418470e71347e39bf))
+
 ## [1.0.2](https://github.com/grafana/shared-workflows/compare/component-change-detection/v1.0.1...component-change-detection/v1.0.2) (2026-06-10)
 
 
