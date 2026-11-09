@@ -1,5 +1,41 @@
 # Changelog
 
+## [2.0.0](https://github.com/erj826/shared-workflows/compare/socket-export-sbom/v1.0.0...socket-export-sbom/v2.0.0) (2026-11-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* export branch-specific SBOM via Socket CLI ([#2206](https://github.com/erj826/shared-workflows/issues/2206))
+
+### 🎉 Features
+
+* export branch-specific SBOM via Socket CLI ([#2206](https://github.com/erj826/shared-workflows/issues/2206)) ([801dc0b](https://github.com/erj826/shared-workflows/commit/801dc0b75637c2fb0d0d4de0c85890991d973f68))
+
+
+### 🐛 Bug Fixes
+
+* **create-github-app-token:** trigger release-please for reverted gatb change ([#1988](https://github.com/erj826/shared-workflows/issues/1988)) ([e6c8753](https://github.com/erj826/shared-workflows/commit/e6c875364b041be8288bcb1bee15f79cea31ffb1))
+* **socket-export-sbom:** run the SPDX export in JS to avoid bot-protection 403s ([#2258](https://github.com/erj826/shared-workflows/issues/2258)) ([2ee51c4](https://github.com/erj826/shared-workflows/commit/2ee51c48eacc2eccdefbc3869941dd734d0ab60e))
+
+
+### 📝 Documentation
+
+* generate action and workflow input/output tables ([#2276](https://github.com/erj826/shared-workflows/issues/2276)) ([ddcc1f8](https://github.com/erj826/shared-workflows/commit/ddcc1f84239514abefa7b02481bfcc24bd88c4ca))
+* update readme with examples for mutable and immutable releases ([#2165](https://github.com/erj826/shared-workflows/issues/2165)) ([15c917c](https://github.com/erj826/shared-workflows/commit/15c917c6463d00530fd81dd86401e312ca289d26))
+
+
+### 🔧 Miscellaneous Chores
+
+* **deps:** update actions/setup-go action to v6.4.0 ([#1837](https://github.com/erj826/shared-workflows/issues/1837)) ([170bd5b](https://github.com/erj826/shared-workflows/commit/170bd5b0ba3c2414519216fd5d7f0fe5a40e3f40))
+* **deps:** update actions/setup-go action to v6.5.0 ([#2145](https://github.com/erj826/shared-workflows/issues/2145)) ([67f1fea](https://github.com/erj826/shared-workflows/commit/67f1fea99eb1c85cc97bb621d3b3130381f623a9))
+* **deps:** update dependency @socketsecurity/cli to v1.1.158 ([#2257](https://github.com/erj826/shared-workflows/issues/2257)) ([1def3ac](https://github.com/erj826/shared-workflows/commit/1def3aca8b145c9a5fb94cbbad44c4c6ba266e93))
+* **deps:** update dependency @socketsecurity/cli to v1.1.176 ([#2306](https://github.com/erj826/shared-workflows/issues/2306)) ([d979cf4](https://github.com/erj826/shared-workflows/commit/d979cf4db9e396c06304e581e36d995fb85bf8e6))
+* **deps:** update dependency @socketsecurity/cli to v1.1.180 ([#2320](https://github.com/erj826/shared-workflows/issues/2320)) ([82d581a](https://github.com/erj826/shared-workflows/commit/82d581a5c93d35cc1041d8a3937e398300a95609))
+* **deps:** update dependency @socketsecurity/cli to v1.8.4 ([#2334](https://github.com/erj826/shared-workflows/issues/2334)) ([1c43663](https://github.com/erj826/shared-workflows/commit/1c43663564beb6603f67a6ed8a3dda489b4bc1d2))
+* **main:** release socket-export-sbom 0.1.1 ([#1658](https://github.com/erj826/shared-workflows/issues/1658)) ([6333e90](https://github.com/erj826/shared-workflows/commit/6333e904362e36e69fc8f459b6f47e6ff3c06225))
+* **main:** release socket-export-sbom 0.1.2 ([#2060](https://github.com/erj826/shared-workflows/issues/2060)) ([ff9aaa5](https://github.com/erj826/shared-workflows/commit/ff9aaa53f25716fcd6dde39f6d4e41c4e16fb5e1))
+* **main:** release socket-export-sbom 1.0.0 ([#2150](https://github.com/erj826/shared-workflows/issues/2150)) ([73f73d3](https://github.com/erj826/shared-workflows/commit/73f73d35ceadf46221741d45faefec0c5a990e6b))
+
 ## [1.0.0](https://github.com/grafana/shared-workflows/compare/socket-export-sbom/v0.1.2...socket-export-sbom/v1.0.0) (2026-08-06)
 
 
