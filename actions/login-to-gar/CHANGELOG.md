@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.0.5](https://github.com/erj826/shared-workflows/compare/login-to-gar/v1.0.4...login-to-gar/v1.0.5) (2026-11-09)
+
+
+### 🐛 Bug Fixes
+
+* avoid noisy notice messages ([#2158](https://github.com/erj826/shared-workflows/issues/2158)) ([e3d8e4f](https://github.com/erj826/shared-workflows/commit/e3d8e4fc93c11a792dd548a113679a85d5b78493))
+* **create-github-app-token:** trigger release-please for reverted gatb change ([#1988](https://github.com/erj826/shared-workflows/issues/1988)) ([e6c8753](https://github.com/erj826/shared-workflows/commit/e6c875364b041be8288bcb1bee15f79cea31ffb1))
+* **login-to-gar:** retry gcloud login on transient OIDC token failures ([#2337](https://github.com/erj826/shared-workflows/issues/2337)) ([6dfac59](https://github.com/erj826/shared-workflows/commit/6dfac5932dac415f17544b55f45efc5a3c5a0da2))
+
+
+### 📝 Documentation
+
+* generate action and workflow input/output tables ([#2276](https://github.com/erj826/shared-workflows/issues/2276)) ([ddcc1f8](https://github.com/erj826/shared-workflows/commit/ddcc1f84239514abefa7b02481bfcc24bd88c4ca))
+
+
+### 🔧 Miscellaneous Chores
+
+* **main:** release login-to-gar 1.0.2 ([#1559](https://github.com/erj826/shared-workflows/issues/1559)) ([12c87e5](https://github.com/erj826/shared-workflows/commit/12c87e5aa323694c820c1ff3d8e47e8237e05136))
+* **main:** release login-to-gar 1.0.3 ([#1998](https://github.com/erj826/shared-workflows/issues/1998)) ([1f54187](https://github.com/erj826/shared-workflows/commit/1f541877ceb22c7be7667d8a8df04984aeac9f9d))
+* **main:** release login-to-gar 1.0.4 ([#2163](https://github.com/erj826/shared-workflows/issues/2163)) ([afad5c7](https://github.com/erj826/shared-workflows/commit/afad5c7621e788905e6417f05b492972685ab1eb))
+
 ## [1.0.4](https://github.com/grafana/shared-workflows/compare/login-to-gar/v1.0.3...login-to-gar/v1.0.4) (2026-10-08)
 
 
