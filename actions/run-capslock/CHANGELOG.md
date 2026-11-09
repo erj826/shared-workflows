@@ -1,5 +1,38 @@
 # Changelog
 
+## [0.2.4](https://github.com/erj826/shared-workflows/compare/run-capslock/v0.2.3...run-capslock/v0.2.4) (2026-11-09)
+
+
+### 🐛 Bug Fixes
+
+* **create-github-app-token:** trigger release-please for reverted gatb change ([#1988](https://github.com/erj826/shared-workflows/issues/1988)) ([e6c8753](https://github.com/erj826/shared-workflows/commit/e6c875364b041be8288bcb1bee15f79cea31ffb1))
+* **deps:** update module github.com/google/capslock to v0.3.2 ([#2204](https://github.com/erj826/shared-workflows/issues/2204)) ([1563dce](https://github.com/erj826/shared-workflows/commit/1563dced8af5326d309c400cf4fc049ce17b4ef3))
+* **deps:** update module github.com/google/capslock to v0.3.3 ([#2316](https://github.com/erj826/shared-workflows/issues/2316)) ([e5a25f5](https://github.com/erj826/shared-workflows/commit/e5a25f5c855dadbb75519df67f7691450473e765))
+* **deps:** update module google.golang.org/protobuf to v1.36.11 ([#2142](https://github.com/erj826/shared-workflows/issues/2142)) ([66d186f](https://github.com/erj826/shared-workflows/commit/66d186f890e84ae1e26fcf55f25103f242eccb1e))
+* **deps:** update module google.golang.org/protobuf to v1.36.12 ([#2270](https://github.com/erj826/shared-workflows/issues/2270)) ([76f7b74](https://github.com/erj826/shared-workflows/commit/76f7b74b5e4ce886e51dba5a3740cbb9dc659c20))
+
+
+### 📝 Documentation
+
+* generate action and workflow input/output tables ([#2276](https://github.com/erj826/shared-workflows/issues/2276)) ([ddcc1f8](https://github.com/erj826/shared-workflows/commit/ddcc1f84239514abefa7b02481bfcc24bd88c4ca))
+
+
+### 🔧 Miscellaneous Chores
+
+* **deps:** update actions/cache action to v6 ([#2227](https://github.com/erj826/shared-workflows/issues/2227)) ([ddc2a23](https://github.com/erj826/shared-workflows/commit/ddc2a23ec2ab41811bb9ba72e26afc7ed72466b0))
+* **deps:** update actions/checkout action to v6.0.3 ([#2027](https://github.com/erj826/shared-workflows/issues/2027)) ([42afded](https://github.com/erj826/shared-workflows/commit/42afdedfa0cfbe7d8d3d1bbc6fd2318145909947))
+* **deps:** update actions/checkout action to v7 ([#2106](https://github.com/erj826/shared-workflows/issues/2106)) ([f20c37c](https://github.com/erj826/shared-workflows/commit/f20c37c69d2a3c8817fd343f9bde32e11183b467))
+* **deps:** update actions/checkout action to v7.0.1 ([#2228](https://github.com/erj826/shared-workflows/issues/2228)) ([31fc0f4](https://github.com/erj826/shared-workflows/commit/31fc0f4e6ab8a4a8332ff8f1a85ea60bfd1e9bd1))
+* **deps:** update actions/setup-go action to v6.4.0 ([#1837](https://github.com/erj826/shared-workflows/issues/1837)) ([170bd5b](https://github.com/erj826/shared-workflows/commit/170bd5b0ba3c2414519216fd5d7f0fe5a40e3f40))
+* **deps:** update actions/setup-go action to v6.5.0 ([#2145](https://github.com/erj826/shared-workflows/issues/2145)) ([67f1fea](https://github.com/erj826/shared-workflows/commit/67f1fea99eb1c85cc97bb621d3b3130381f623a9))
+* **deps:** update actions/setup-go action to v7 ([#2233](https://github.com/erj826/shared-workflows/issues/2233)) ([80e1047](https://github.com/erj826/shared-workflows/commit/80e1047e842e97d3cf0dc01269955fbede9b8932))
+* **deps:** update marocchino/sticky-pull-request-comment action to v3 ([#1807](https://github.com/erj826/shared-workflows/issues/1807)) ([5882b92](https://github.com/erj826/shared-workflows/commit/5882b921f4806a59dd2659909a1e569c9d796289))
+* **deps:** update marocchino/sticky-pull-request-comment action to v3.0.3 ([#1859](https://github.com/erj826/shared-workflows/issues/1859)) ([2c35707](https://github.com/erj826/shared-workflows/commit/2c35707f8e26f1bc5358305d8562f53549b77e1a))
+* **deps:** update marocchino/sticky-pull-request-comment action to v3.0.4 ([#1874](https://github.com/erj826/shared-workflows/issues/1874)) ([e776c0b](https://github.com/erj826/shared-workflows/commit/e776c0ba51ee2c8c97792e661ba8bd34c2642a55))
+* **deps:** update marocchino/sticky-pull-request-comment action to v3.0.5 ([#2131](https://github.com/erj826/shared-workflows/issues/2131)) ([4ec290f](https://github.com/erj826/shared-workflows/commit/4ec290f77301d5c87dced804a4a74b2be27d6aae))
+* **main:** release run-capslock 0.2.2 ([#1758](https://github.com/erj826/shared-workflows/issues/1758)) ([4b17bfa](https://github.com/erj826/shared-workflows/commit/4b17bfa2184b708fa13b96a55cd82b1283a2db7d))
+* **main:** release run-capslock 0.2.3 ([#2058](https://github.com/erj826/shared-workflows/issues/2058)) ([3cf437b](https://github.com/erj826/shared-workflows/commit/3cf437b1bd6b51bf13c9f7e7679bf9dee2d4293c))
+
 ## [0.2.3](https://github.com/grafana/shared-workflows/compare/run-capslock/v0.2.2...run-capslock/v0.2.3) (2026-06-10)
 
 
