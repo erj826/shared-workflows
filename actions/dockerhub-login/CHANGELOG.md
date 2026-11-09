@@ -1,5 +1,37 @@
 # Changelog
 
+## [4.0.0](https://github.com/erj826/shared-workflows/compare/dockerhub-login/v3.0.0...dockerhub-login/v4.0.0) (2026-11-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* **dockerhub-login:** log in with Docker Hub OIDC instead of the shared secret ([#2378](https://github.com/erj826/shared-workflows/issues/2378))
+* **get-vault-secrets:** remove export_env option, use JSON output always ([#1957](https://github.com/erj826/shared-workflows/issues/1957))
+
+### 🎉 Features
+
+* **dockerhub-login:** log in with Docker Hub OIDC instead of the shared secret ([#2378](https://github.com/erj826/shared-workflows/issues/2378)) ([51c1810](https://github.com/erj826/shared-workflows/commit/51c1810b481c6f413c150eef881a5da1c36f30f6))
+* **get-vault-secrets:** remove export_env option, use JSON output always ([#1957](https://github.com/erj826/shared-workflows/issues/1957)) ([84e8abf](https://github.com/erj826/shared-workflows/commit/84e8abf0d3cd31cc8fa01d0e2c629a96864a108a))
+
+
+### 🐛 Bug Fixes
+
+* **create-github-app-token:** trigger release-please for reverted gatb change ([#1988](https://github.com/erj826/shared-workflows/issues/1988)) ([e6c8753](https://github.com/erj826/shared-workflows/commit/e6c875364b041be8288bcb1bee15f79cea31ffb1))
+* reference sibling actions directly instead of checkout ([#2032](https://github.com/erj826/shared-workflows/issues/2032)) ([614ae58](https://github.com/erj826/shared-workflows/commit/614ae58b964b32c08d190dde334a583cc8373723))
+
+
+### 🔧 Miscellaneous Chores
+
+* **deps:** update docker/login-action action to v4.1.0 ([#1849](https://github.com/erj826/shared-workflows/issues/1849)) ([249c27a](https://github.com/erj826/shared-workflows/commit/249c27a2470e9c9eb6e1dd01177484b44aad9b5c))
+* **deps:** update docker/login-action action to v4.2.0 ([#2020](https://github.com/erj826/shared-workflows/issues/2020)) ([b2f47cf](https://github.com/erj826/shared-workflows/commit/b2f47cf9a22221fcb6fb816ffea2fd382971b218))
+* **deps:** update docker/login-action action to v4.4.0 ([#2168](https://github.com/erj826/shared-workflows/issues/2168)) ([21536e4](https://github.com/erj826/shared-workflows/commit/21536e4603262dd7882584949c2da3c8d01cba45))
+* **deps:** update docker/login-action action to v4.5.1 ([#2219](https://github.com/erj826/shared-workflows/issues/2219)) ([e7c5c20](https://github.com/erj826/shared-workflows/commit/e7c5c2014724b9102771f725b87c28d8f0246e1a))
+* **deps:** update docker/login-action action to v4.6.0 ([#2247](https://github.com/erj826/shared-workflows/issues/2247)) ([e2bc296](https://github.com/erj826/shared-workflows/commit/e2bc296fb44bcff24b058c52fc69efd48118fbdc))
+* **deps:** update grafana/shared-workflows/get-vault-secrets action to v2.0.1 ([#2268](https://github.com/erj826/shared-workflows/issues/2268)) ([35bf148](https://github.com/erj826/shared-workflows/commit/35bf148d529e6ec81707d291aa73c7f3cda949de))
+* **main:** release dockerhub-login 1.0.4 ([#1677](https://github.com/erj826/shared-workflows/issues/1677)) ([ef3a62a](https://github.com/erj826/shared-workflows/commit/ef3a62a3ca4c1a15505b4235a5a51493194da3c7))
+* **main:** release dockerhub-login 2.0.0 ([#2052](https://github.com/erj826/shared-workflows/issues/2052)) ([3ffeda2](https://github.com/erj826/shared-workflows/commit/3ffeda28e54d6c8e02c3998594fafaf0a359328d))
+* **main:** release dockerhub-login 3.0.0 ([#2172](https://github.com/erj826/shared-workflows/issues/2172)) ([3e6b757](https://github.com/erj826/shared-workflows/commit/3e6b757dee9d45b7c1b16d7f53b8cab2c9532ccb))
+
 ## [3.0.0](https://github.com/grafana/shared-workflows/compare/dockerhub-login/v2.0.0...dockerhub-login/v3.0.0) (2026-11-03)
 
 
