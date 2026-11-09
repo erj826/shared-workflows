@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.0.5](https://github.com/erj826/shared-workflows/compare/find-pr-for-commit/v1.0.4...find-pr-for-commit/v1.0.5) (2026-11-09)
+
+
+### 🐛 Bug Fixes
+
+* **create-github-app-token:** trigger release-please for reverted gatb change ([#1988](https://github.com/erj826/shared-workflows/issues/1988)) ([e6c8753](https://github.com/erj826/shared-workflows/commit/e6c875364b041be8288bcb1bee15f79cea31ffb1))
+
+
+### 📝 Documentation
+
+* generate action and workflow input/output tables ([#2276](https://github.com/erj826/shared-workflows/issues/2276)) ([ddcc1f8](https://github.com/erj826/shared-workflows/commit/ddcc1f84239514abefa7b02481bfcc24bd88c4ca))
+
+
+### 🔧 Miscellaneous Chores
+
+* **main:** release find-pr-for-commit 1.0.2 ([#1498](https://github.com/erj826/shared-workflows/issues/1498)) ([32b178c](https://github.com/erj826/shared-workflows/commit/32b178c32a3c02f547750d43375c734b4a602828))
+* **main:** release find-pr-for-commit 1.0.3 ([#2065](https://github.com/erj826/shared-workflows/issues/2065)) ([b6c6616](https://github.com/erj826/shared-workflows/commit/b6c6616c0db858adaf0c03491417a5dd9983c904))
+* **main:** release find-pr-for-commit 1.0.4 ([#2288](https://github.com/erj826/shared-workflows/issues/2288)) ([1543377](https://github.com/erj826/shared-workflows/commit/1543377c95bfea479786f38226fac72116cd3c80))
+
 ## [1.0.4](https://github.com/grafana/shared-workflows/compare/find-pr-for-commit/v1.0.3...find-pr-for-commit/v1.0.4) (2026-09-09)
 
 
