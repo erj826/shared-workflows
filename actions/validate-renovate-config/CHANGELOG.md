@@ -1,5 +1,32 @@
 # Changelog
 
+## [0.1.5](https://github.com/erj826/shared-workflows/compare/validate-renovate-config/v0.1.4...validate-renovate-config/v0.1.5) (2026-11-09)
+
+
+### 🐛 Bug Fixes
+
+* **create-github-app-token:** trigger release-please for reverted gatb change ([#1988](https://github.com/erj826/shared-workflows/issues/1988)) ([e6c8753](https://github.com/erj826/shared-workflows/commit/e6c875364b041be8288bcb1bee15f79cea31ffb1))
+
+
+### 📝 Documentation
+
+* generate action and workflow input/output tables ([#2276](https://github.com/erj826/shared-workflows/issues/2276)) ([ddcc1f8](https://github.com/erj826/shared-workflows/commit/ddcc1f84239514abefa7b02481bfcc24bd88c4ca))
+
+
+### 🔧 Miscellaneous Chores
+
+* **deps:** update actions/setup-node action to v6.4.0 ([#1894](https://github.com/erj826/shared-workflows/issues/1894)) ([0f3e84a](https://github.com/erj826/shared-workflows/commit/0f3e84a3f952139dcfcfed85aeba4d85dd9b5114))
+* **deps:** update actions/setup-node action to v6.5.0 ([#2170](https://github.com/erj826/shared-workflows/issues/2170)) ([4cfacf5](https://github.com/erj826/shared-workflows/commit/4cfacf5e3d3c263435b40925f345d4a57514d4f1))
+* **deps:** update actions/setup-node action to v7 ([#2238](https://github.com/erj826/shared-workflows/issues/2238)) ([dc2395e](https://github.com/erj826/shared-workflows/commit/dc2395ea9bbe89e3a171a344ca10be800d5ae14f))
+* **deps:** update dependency renovate to 43.104 ([#1836](https://github.com/erj826/shared-workflows/issues/1836)) ([fff7794](https://github.com/erj826/shared-workflows/commit/fff7794b0b9537b2a37884eef14fa7b184dd4a89))
+* **deps:** update dependency renovate to 43.110 ([#1867](https://github.com/erj826/shared-workflows/issues/1867)) ([86ca535](https://github.com/erj826/shared-workflows/commit/86ca535b008126b06a294cbc0965fb784c792645))
+* **deps:** update dependency renovate to 43.127 ([#1886](https://github.com/erj826/shared-workflows/issues/1886)) ([3679a93](https://github.com/erj826/shared-workflows/commit/3679a9381aad70bf2554d6c73aa092c0234b65ce))
+* **deps:** update dependency renovate to 43.140 ([#1903](https://github.com/erj826/shared-workflows/issues/1903)) ([da5fcec](https://github.com/erj826/shared-workflows/commit/da5fcec5fdf7fe2f7da879e719c84b6d6131e631))
+* **deps:** update dependency renovate to 43.232 ([#2107](https://github.com/erj826/shared-workflows/issues/2107)) ([2c6a031](https://github.com/erj826/shared-workflows/commit/2c6a031846caccb893594248836c4f42bf73a125))
+* **deps:** update dependency renovate to 43.87 ([#1806](https://github.com/erj826/shared-workflows/issues/1806)) ([6469743](https://github.com/erj826/shared-workflows/commit/64697433e0b78485bbc62748adba42db2fd11ddc))
+* **main:** release validate-renovate-config 0.1.3 ([#1771](https://github.com/erj826/shared-workflows/issues/1771)) ([ee85cc9](https://github.com/erj826/shared-workflows/commit/ee85cc9b5b1d6c880b92c77c19817f29b2338c77))
+* **main:** release validate-renovate-config 0.1.4 ([#2049](https://github.com/erj826/shared-workflows/issues/2049)) ([b747448](https://github.com/erj826/shared-workflows/commit/b7474485d59e97b4ee81d5f94f442f072380bf79))
+
 ## [0.1.4](https://github.com/grafana/shared-workflows/compare/validate-renovate-config/v0.1.3...validate-renovate-config/v0.1.4) (2026-06-10)
 
 
