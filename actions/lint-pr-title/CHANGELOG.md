@@ -1,5 +1,86 @@
 # Changelog
 
+## [1.2.5](https://github.com/erj826/shared-workflows/compare/lint-pr-title/v1.2.4...lint-pr-title/v1.2.5) (2026-11-09)
+
+
+### 🐛 Bug Fixes
+
+* **create-github-app-token:** trigger release-please for reverted gatb change ([#1988](https://github.com/erj826/shared-workflows/issues/1988)) ([e6c8753](https://github.com/erj826/shared-workflows/commit/e6c875364b041be8288bcb1bee15f79cea31ffb1))
+* **deps:** update commitlint monorepo ([#2201](https://github.com/erj826/shared-workflows/issues/2201)) ([3665bb8](https://github.com/erj826/shared-workflows/commit/3665bb867f2e94790864fb5aef025b2f040f41eb))
+* **deps:** update commitlint monorepo to v20.4.4 ([#1804](https://github.com/erj826/shared-workflows/issues/1804)) ([792723b](https://github.com/erj826/shared-workflows/commit/792723bb79230d0bfe0497e581761054b224f449))
+* **deps:** update commitlint monorepo to v20.5.0 ([#1815](https://github.com/erj826/shared-workflows/issues/1815)) ([071dcdc](https://github.com/erj826/shared-workflows/commit/071dcdcb9c3c7e51b76a708c1807ca7c727e1420))
+* **deps:** update commitlint monorepo to v20.5.3 ([#1915](https://github.com/erj826/shared-workflows/issues/1915)) ([3b67d48](https://github.com/erj826/shared-workflows/commit/3b67d48de62f2edd46282fdffda062bea25a719d))
+* **deps:** update commitlint monorepo to v21 ([#2071](https://github.com/erj826/shared-workflows/issues/2071)) ([7338406](https://github.com/erj826/shared-workflows/commit/7338406d3dc8357e200385a94b95e2f2b0bfd5f5))
+* **deps:** update dependency @actions/core to v3.0.1 ([#1898](https://github.com/erj826/shared-workflows/issues/1898)) ([c0e53c6](https://github.com/erj826/shared-workflows/commit/c0e53c62be90482ca6f0d15d791828942924e29b))
+* **deps:** update dependency @actions/github to v9 ([#1687](https://github.com/erj826/shared-workflows/issues/1687)) ([0a6d038](https://github.com/erj826/shared-workflows/commit/0a6d0382a92b7282ab72bb4a934225d8cb17a8ff))
+* **deps:** update dependency @actions/github to v9.1.0 ([#1862](https://github.com/erj826/shared-workflows/issues/1862)) ([aaedda8](https://github.com/erj826/shared-workflows/commit/aaedda812a5314ed1c17b35adabea9f6a9ef94fe))
+* **deps:** update dependency @actions/github to v9.1.1 ([#1899](https://github.com/erj826/shared-workflows/issues/1899)) ([e6e6160](https://github.com/erj826/shared-workflows/commit/e6e61603c4b276aa1b98788b6372c8712c19fb22))
+* **deps:** update dependency @commitlint/load to v20.5.2 ([#1906](https://github.com/erj826/shared-workflows/issues/1906)) ([3729c45](https://github.com/erj826/shared-workflows/commit/3729c452ced9ff44ad4be365b891623e5d884cef))
+* **deps:** update dependency tmp to v0.2.7 ([#1984](https://github.com/erj826/shared-workflows/issues/1984)) ([8e6f485](https://github.com/erj826/shared-workflows/commit/8e6f485462f829734922170d45d45ed492b179a8))
+* **deps:** update octokit monorepo ([#2271](https://github.com/erj826/shared-workflows/issues/2271)) ([782f572](https://github.com/erj826/shared-workflows/commit/782f5721018875662580acdf7ecf4510424abe62))
+* **deps:** update octokit monorepo ([#2317](https://github.com/erj826/shared-workflows/issues/2317)) ([f6df5e3](https://github.com/erj826/shared-workflows/commit/f6df5e35ed37640d33f2ebb7c11286daf6a3d0db))
+* **lint-pr-title:** increase lint-pr-title workflow's max character limit ([#2124](https://github.com/erj826/shared-workflows/issues/2124)) ([a310f55](https://github.com/erj826/shared-workflows/commit/a310f558809e9bed162f93f9ea1b8c81afdb73aa))
+* remove shared-workflows checkout from composite actions ([#2036](https://github.com/erj826/shared-workflows/issues/2036)) ([d6624ff](https://github.com/erj826/shared-workflows/commit/d6624ff13ea9c78935851225fd1ccabb23423be6))
+* **security/high:** update dependency tmp to v0.2.6 [security] ([#1959](https://github.com/erj826/shared-workflows/issues/1959)) ([477502e](https://github.com/erj826/shared-workflows/commit/477502e59ffb9775ef02485879211e32d4a16050))
+
+
+### 📝 Documentation
+
+* generate action and workflow input/output tables ([#2276](https://github.com/erj826/shared-workflows/issues/2276)) ([ddcc1f8](https://github.com/erj826/shared-workflows/commit/ddcc1f84239514abefa7b02481bfcc24bd88c4ca))
+
+
+### 🔧 Miscellaneous Chores
+
+* **deps:** update dependency @types/bun to v1.3.11 ([#1821](https://github.com/erj826/shared-workflows/issues/1821)) ([1fadd8e](https://github.com/erj826/shared-workflows/commit/1fadd8eb601fb29af58db04f86574df1cd333158))
+* **deps:** update dependency @types/bun to v1.3.12 ([#1869](https://github.com/erj826/shared-workflows/issues/1869)) ([22fccea](https://github.com/erj826/shared-workflows/commit/22fccea88c3eaa188bd72830692e06cf1c9d660b))
+* **deps:** update dependency @types/bun to v1.3.13 ([#1900](https://github.com/erj826/shared-workflows/issues/1900)) ([e0514ff](https://github.com/erj826/shared-workflows/commit/e0514fff401fb2502e2c3e2c0a3bbefb6ce67c3d))
+* **deps:** update dependency @types/bun to v1.3.14 ([#1979](https://github.com/erj826/shared-workflows/issues/1979)) ([6c0316c](https://github.com/erj826/shared-workflows/commit/6c0316cecb4e52b7e6439f5719c442f32d7ada61))
+* **deps:** update dependency @types/bun to v1.4.2 ([#2274](https://github.com/erj826/shared-workflows/issues/2274)) ([79b8be8](https://github.com/erj826/shared-workflows/commit/79b8be8543a7fd2d02c7a5c14f719fa15b1e4dfb))
+* **deps:** update dependency @types/bun to v1.4.4 ([#2357](https://github.com/erj826/shared-workflows/issues/2357)) ([865cbe5](https://github.com/erj826/shared-workflows/commit/865cbe56fe78f536cf954a81732cf8eee2e2fc66))
+* **deps:** update dependency eslint to v10.1.0 ([#1826](https://github.com/erj826/shared-workflows/issues/1826)) ([8f31e7d](https://github.com/erj826/shared-workflows/commit/8f31e7d599245f060935dce12b2813cc646c889b))
+* **deps:** update dependency eslint to v10.13.0 ([#2322](https://github.com/erj826/shared-workflows/issues/2322)) ([59a7fe7](https://github.com/erj826/shared-workflows/commit/59a7fe74522a10b55e2fc2175a5c420b37e721a3))
+* **deps:** update dependency eslint to v10.2.0 ([#1856](https://github.com/erj826/shared-workflows/issues/1856)) ([d84db42](https://github.com/erj826/shared-workflows/commit/d84db42bd50249775496f814bd875a476849028e))
+* **deps:** update dependency eslint to v10.2.1 ([#1889](https://github.com/erj826/shared-workflows/issues/1889)) ([3e31f3c](https://github.com/erj826/shared-workflows/commit/3e31f3ccf58fe61e6869414a8afd0c78ccb84c99))
+* **deps:** update dependency eslint to v10.4.1 ([#1968](https://github.com/erj826/shared-workflows/issues/1968)) ([a576c09](https://github.com/erj826/shared-workflows/commit/a576c0989b6ed6d5c623db6e2d7e0ca8a0ef3dce))
+* **deps:** update dependency eslint to v10.7.0 ([#2155](https://github.com/erj826/shared-workflows/issues/2155)) ([8284f00](https://github.com/erj826/shared-workflows/commit/8284f008365a5703c954f4a1dd72c908563c14fe))
+* **deps:** update dependency eslint to v10.8.0 ([#2217](https://github.com/erj826/shared-workflows/issues/2217)) ([2ec03f8](https://github.com/erj826/shared-workflows/commit/2ec03f807c17d47646a87c03051e9caea8267029))
+* **deps:** update dependency eslint to v10.9.0 ([#2261](https://github.com/erj826/shared-workflows/issues/2261)) ([fc97070](https://github.com/erj826/shared-workflows/commit/fc9707096d8f5edd2e7260031fbf2026488386c6))
+* **deps:** update dependency eslint-plugin-jest to v29.15.1 ([#1834](https://github.com/erj826/shared-workflows/issues/1834)) ([88fe06e](https://github.com/erj826/shared-workflows/commit/88fe06e458373873ef78acd60ec9ded5e1070ee7))
+* **deps:** update dependency eslint-plugin-jest to v29.15.2 ([#1865](https://github.com/erj826/shared-workflows/issues/1865)) ([c283c63](https://github.com/erj826/shared-workflows/commit/c283c63e9fe73dbb2876cc9b84a51e45721ccfd4))
+* **deps:** update dependency eslint-plugin-jest to v29.15.4 ([#2126](https://github.com/erj826/shared-workflows/issues/2126)) ([a6402b5](https://github.com/erj826/shared-workflows/commit/a6402b5f7d1781ace3d511393908ce50b0baf340))
+* **deps:** update dependency eslint-plugin-jest to v29.16.0 ([#2215](https://github.com/erj826/shared-workflows/issues/2215)) ([976b8f7](https://github.com/erj826/shared-workflows/commit/976b8f76f63d9d3654c89f877a1ca67c55a6ecfa))
+* **deps:** update dependency eslint-plugin-jest to v29.16.1 ([#2262](https://github.com/erj826/shared-workflows/issues/2262)) ([692a0fa](https://github.com/erj826/shared-workflows/commit/692a0fac7ee40fc3ec23b413148eb690be61bac0))
+* **deps:** update dependency eslint-plugin-jest to v29.16.6 ([#2308](https://github.com/erj826/shared-workflows/issues/2308)) ([cd3c3dd](https://github.com/erj826/shared-workflows/commit/cd3c3dd0b05b6b972aeb5826a4777f77ccae3d50))
+* **deps:** update dependency eslint-plugin-prettier to v5.5.6 ([#1983](https://github.com/erj826/shared-workflows/issues/1983)) ([d334c0c](https://github.com/erj826/shared-workflows/commit/d334c0cb1c9ec8c7724d399ff158ff834f8af50d))
+* **deps:** update dependency eslint-plugin-prettier to v5.5.7 ([#2361](https://github.com/erj826/shared-workflows/issues/2361)) ([8806ea5](https://github.com/erj826/shared-workflows/commit/8806ea575a1653fd68c04084ba47058bce056315))
+* **deps:** update dependency prettier to v3.8.2 ([#1871](https://github.com/erj826/shared-workflows/issues/1871)) ([0d55f57](https://github.com/erj826/shared-workflows/commit/0d55f577bd7383c3128764e030889398210e3846))
+* **deps:** update dependency prettier to v3.8.3 ([#1881](https://github.com/erj826/shared-workflows/issues/1881)) ([7ae0538](https://github.com/erj826/shared-workflows/commit/7ae05389d000a8bc52152e3ef108166f868869d6))
+* **deps:** update dependency prettier to v3.8.4 ([#2087](https://github.com/erj826/shared-workflows/issues/2087)) ([65af788](https://github.com/erj826/shared-workflows/commit/65af788ff7dcf9e3dce4ca338184595328e8b0a3))
+* **deps:** update dependency prettier to v3.9.10 ([#2367](https://github.com/erj826/shared-workflows/issues/2367)) ([c57ca30](https://github.com/erj826/shared-workflows/commit/c57ca30fae4f5d2c737a36799319c360baeb492e))
+* **deps:** update dependency prettier to v3.9.5 ([#2159](https://github.com/erj826/shared-workflows/issues/2159)) ([5f56978](https://github.com/erj826/shared-workflows/commit/5f56978faf571881083e065ed7536579d317cd55))
+* **deps:** update dependency prettier to v3.9.6 ([#2208](https://github.com/erj826/shared-workflows/issues/2208)) ([43a1b7b](https://github.com/erj826/shared-workflows/commit/43a1b7b96e93d6cfa5cd1dd053f20b1e7b1f1b9e))
+* **deps:** update dependency prettier to v3.9.8 ([#2310](https://github.com/erj826/shared-workflows/issues/2310)) ([9d1c53a](https://github.com/erj826/shared-workflows/commit/9d1c53a91c740d1d4ffe9ee7ba3bcb053c2da8a6))
+* **deps:** update dependency prettier to v3.9.9 ([#2321](https://github.com/erj826/shared-workflows/issues/2321)) ([d8353fd](https://github.com/erj826/shared-workflows/commit/d8353fd2c4ff821bd9a635f222305545ddb61266))
+* **deps:** update dependency typescript to v6 ([#1832](https://github.com/erj826/shared-workflows/issues/1832)) ([c9eaddf](https://github.com/erj826/shared-workflows/commit/c9eaddf251a560fe388bed783ef3175c0f98e753))
+* **deps:** update dependency typescript to v6.0.3 ([#1885](https://github.com/erj826/shared-workflows/issues/1885)) ([9cdee92](https://github.com/erj826/shared-workflows/commit/9cdee92954d9fd3c870c382f3e98f6e93d6da880))
+* **deps:** update dependency typescript-eslint to v8.57.0 ([#1794](https://github.com/erj826/shared-workflows/issues/1794)) ([45e6c6e](https://github.com/erj826/shared-workflows/commit/45e6c6efec7ed4cacef8b35ee2beec961783d92c))
+* **deps:** update dependency typescript-eslint to v8.57.2 ([#1833](https://github.com/erj826/shared-workflows/issues/1833)) ([1d18cd9](https://github.com/erj826/shared-workflows/commit/1d18cd983976d3025eaabf9c82d6bcb095eb365c))
+* **deps:** update dependency typescript-eslint to v8.58.1 ([#1846](https://github.com/erj826/shared-workflows/issues/1846)) ([2dcd7dc](https://github.com/erj826/shared-workflows/commit/2dcd7dce34a73993ebb099815b767930081a7e6b))
+* **deps:** update dependency typescript-eslint to v8.59.1 ([#1878](https://github.com/erj826/shared-workflows/issues/1878)) ([8929c30](https://github.com/erj826/shared-workflows/commit/8929c30de5a982d7d683d99d4814b1dc88455a6c))
+* **deps:** update dependency typescript-eslint to v8.60.0 ([#1963](https://github.com/erj826/shared-workflows/issues/1963)) ([2a52b7c](https://github.com/erj826/shared-workflows/commit/2a52b7ce8e321cada46e4abcf4c6208319d3cf90))
+* **deps:** update dependency typescript-eslint to v8.60.1 ([#2039](https://github.com/erj826/shared-workflows/issues/2039)) ([5daec6a](https://github.com/erj826/shared-workflows/commit/5daec6a5107df8208998e3351ca28220f87e438e))
+* **deps:** update dependency typescript-eslint to v8.62.1 ([#2105](https://github.com/erj826/shared-workflows/issues/2105)) ([3ba0929](https://github.com/erj826/shared-workflows/commit/3ba09292e05edb23ef21265eaaaf2267f33f853b))
+* **deps:** update dependency typescript-eslint to v8.63.0 ([#2160](https://github.com/erj826/shared-workflows/issues/2160)) ([86e65f7](https://github.com/erj826/shared-workflows/commit/86e65f7130d6e52d79f4b56a925b431c4aaea359))
+* **deps:** update dependency typescript-eslint to v8.64.0 ([#2171](https://github.com/erj826/shared-workflows/issues/2171)) ([9c30359](https://github.com/erj826/shared-workflows/commit/9c30359d4fed0f1b4d1fc728bd61890d273cccc9))
+* **deps:** update dependency typescript-eslint to v8.65.0 ([#2216](https://github.com/erj826/shared-workflows/issues/2216)) ([1dbcae6](https://github.com/erj826/shared-workflows/commit/1dbcae6151956b0b33776825f16f5a6db3d46b86))
+* **deps:** update eslint monorepo to v10 (major) ([#1706](https://github.com/erj826/shared-workflows/issues/1706)) ([bdb48f8](https://github.com/erj826/shared-workflows/commit/bdb48f8958471b79cdb98c06427126f45e018af5))
+* **deps:** update eslint monorepo to v10.5.0 ([#2101](https://github.com/erj826/shared-workflows/issues/2101)) ([849fabd](https://github.com/erj826/shared-workflows/commit/849fabda9b23ba8862563b4a15b979954d80e928))
+* **deps:** update oven-sh/setup-bun action to v2.2.0 ([#1813](https://github.com/erj826/shared-workflows/issues/1813)) ([35df936](https://github.com/erj826/shared-workflows/commit/35df936028eacddfcfb6dceb1410d1766fe2933e))
+* **deps:** update typescript-eslint monorepo to v8.61.0 ([#2079](https://github.com/erj826/shared-workflows/issues/2079)) ([a8f4c63](https://github.com/erj826/shared-workflows/commit/a8f4c6350ca3f41fafeff7b4a01f774e5d336746))
+* **main:** release lint-pr-title 1.2.2 ([#1496](https://github.com/erj826/shared-workflows/issues/1496)) ([0239db2](https://github.com/erj826/shared-workflows/commit/0239db2665246f3b078d8d9166e4d8f09c071cae))
+* **main:** release lint-pr-title 1.2.3 ([#1977](https://github.com/erj826/shared-workflows/issues/1977)) ([823ed15](https://github.com/erj826/shared-workflows/commit/823ed150196915a86971ab4beb899b0c80d835fe))
+* **main:** release lint-pr-title 1.2.4 ([#2072](https://github.com/erj826/shared-workflows/issues/2072)) ([70c40e5](https://github.com/erj826/shared-workflows/commit/70c40e5b6522c854a55334124545261cae3d4c73))
+
 ## [1.2.4](https://github.com/grafana/shared-workflows/compare/lint-pr-title/v1.2.3...lint-pr-title/v1.2.4) (2026-07-21)
 
 
