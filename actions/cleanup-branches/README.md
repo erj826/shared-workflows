@@ -35,7 +35,7 @@ jobs:
       pull-requests: read
     steps:
       - uses: actions/checkout@v5
-      - uses: grafana/shared-workflows/actions/cleanup-branches@cleanup-branches/v0.3.2
+      - uses: grafana/shared-workflows/actions/cleanup-branches@cleanup-branches/v0.4.0
         with:
           dry-run: false
           exclude-patterns: |

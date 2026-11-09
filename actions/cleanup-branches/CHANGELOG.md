@@ -1,5 +1,29 @@
 # Changelog
 
+## [0.4.0](https://github.com/erj826/shared-workflows/compare/cleanup-branches/v0.3.2...cleanup-branches/v0.4.0) (2026-11-09)
+
+
+### 🎉 Features
+
+* **cleanup-branches:** add `exclude-patterns` input ([#1972](https://github.com/erj826/shared-workflows/issues/1972)) ([325973e](https://github.com/erj826/shared-workflows/commit/325973e977dd9f6c4397da14a1c754a7f62da308))
+
+
+### 🐛 Bug Fixes
+
+* **create-github-app-token:** trigger release-please for reverted gatb change ([#1988](https://github.com/erj826/shared-workflows/issues/1988)) ([e6c8753](https://github.com/erj826/shared-workflows/commit/e6c875364b041be8288bcb1bee15f79cea31ffb1))
+
+
+### 📝 Documentation
+
+* generate action and workflow input/output tables ([#2276](https://github.com/erj826/shared-workflows/issues/2276)) ([ddcc1f8](https://github.com/erj826/shared-workflows/commit/ddcc1f84239514abefa7b02481bfcc24bd88c4ca))
+
+
+### 🔧 Miscellaneous Chores
+
+* **main:** release cleanup-branches 0.3.0 ([#1978](https://github.com/erj826/shared-workflows/issues/1978)) ([fd1bb11](https://github.com/erj826/shared-workflows/commit/fd1bb11a702aea51d7b13f222e9355e8b63e0668))
+* **main:** release cleanup-branches 0.3.1 ([#2064](https://github.com/erj826/shared-workflows/issues/2064)) ([36e5c27](https://github.com/erj826/shared-workflows/commit/36e5c2754eabcbb9c1201a7fc6b2bf2aa2deb7ab))
+* **main:** release cleanup-branches 0.3.2 ([#2290](https://github.com/erj826/shared-workflows/issues/2290)) ([af226de](https://github.com/erj826/shared-workflows/commit/af226de5594d1ddb10eef81a36749960c8a22be3))
+
 ## [0.3.2](https://github.com/grafana/shared-workflows/compare/cleanup-branches/v0.3.1...cleanup-branches/v0.3.2) (2026-09-09)
 
 
