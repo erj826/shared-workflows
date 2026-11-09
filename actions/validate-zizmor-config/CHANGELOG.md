@@ -1,5 +1,40 @@
 # Changelog
 
+## [0.3.0](https://github.com/erj826/shared-workflows/compare/validate-zizmor-config/v0.2.4...validate-zizmor-config/v0.3.0) (2026-11-09)
+
+
+### 🎉 Features
+
+* **validate-zizmor-config:** align with shared release patterns ([#1949](https://github.com/erj826/shared-workflows/issues/1949)) ([d5ac8ff](https://github.com/erj826/shared-workflows/commit/d5ac8ff989cd791c5fc7bf363fa8c15c5ff9b8d7))
+* **zizmor:** add Zizmor config validation ([#1877](https://github.com/erj826/shared-workflows/issues/1877)) ([0de3298](https://github.com/erj826/shared-workflows/commit/0de3298c32a8d21aebbe5405116864ab53bc8115))
+
+
+### 🐛 Bug Fixes
+
+* **create-github-app-token:** trigger release-please for reverted gatb change ([#1988](https://github.com/erj826/shared-workflows/issues/1988)) ([e6c8753](https://github.com/erj826/shared-workflows/commit/e6c875364b041be8288bcb1bee15f79cea31ffb1))
+* **validate-zizmor-config:** isolate uv from caller project ([#2346](https://github.com/erj826/shared-workflows/issues/2346)) ([6be809e](https://github.com/erj826/shared-workflows/commit/6be809e60f4611e23b5f37a3b27b92a3c7accd6f))
+* **zizmor:** send results when config file validation fails ([#1947](https://github.com/erj826/shared-workflows/issues/1947)) ([30b1318](https://github.com/erj826/shared-workflows/commit/30b13182450854d02e0a54fa42078f7c29889cad))
+
+
+### 📝 Documentation
+
+* generate action and workflow input/output tables ([#2276](https://github.com/erj826/shared-workflows/issues/2276)) ([ddcc1f8](https://github.com/erj826/shared-workflows/commit/ddcc1f84239514abefa7b02481bfcc24bd88c4ca))
+
+
+### 🤖 Continuous Integration
+
+* **zizmor:** update config validator to v0.2.3 ([#2348](https://github.com/erj826/shared-workflows/issues/2348)) ([2befffd](https://github.com/erj826/shared-workflows/commit/2befffd18e64a8fd27746798f261744c3b319d2c))
+
+
+### 🔧 Miscellaneous Chores
+
+* **deps:** update dependency pyyaml to v6.0.3 ([#1911](https://github.com/erj826/shared-workflows/issues/1911)) ([63063a1](https://github.com/erj826/shared-workflows/commit/63063a139c25c7a51fe3ffcd30d938eeabee5a54))
+* **main:** release validate-zizmor-config 0.2.0 ([#1950](https://github.com/erj826/shared-workflows/issues/1950)) ([84a7e1d](https://github.com/erj826/shared-workflows/commit/84a7e1d935b2240eb5dcc3ee4dc0a6692057e94d))
+* **main:** release validate-zizmor-config 0.2.1 ([#2012](https://github.com/erj826/shared-workflows/issues/2012)) ([e181109](https://github.com/erj826/shared-workflows/commit/e181109698e53b4c68bd51fe27ba47c6adf27da7))
+* **main:** release validate-zizmor-config 0.2.2 ([#2286](https://github.com/erj826/shared-workflows/issues/2286)) ([92d3c99](https://github.com/erj826/shared-workflows/commit/92d3c99189f579cdd1ea2657b8e6971fe60877fb))
+* **main:** release validate-zizmor-config 0.2.3 ([#2294](https://github.com/erj826/shared-workflows/issues/2294)) ([2b94cc5](https://github.com/erj826/shared-workflows/commit/2b94cc54e852bc2900612d264df5fd69fc4fc787))
+* **main:** release validate-zizmor-config 0.2.4 ([#2347](https://github.com/erj826/shared-workflows/issues/2347)) ([c24ed29](https://github.com/erj826/shared-workflows/commit/c24ed2956dd0cd3f2688bddda8778bfbe76e3c16))
+
 ## [0.2.4](https://github.com/grafana/shared-workflows/compare/validate-zizmor-config/v0.2.3...validate-zizmor-config/v0.2.4) (2026-10-20)
 
 
