@@ -1,5 +1,39 @@
 # Changelog
 
+## [3.0.0](https://github.com/erj826/shared-workflows/compare/get-vault-secrets/v2.1.0...get-vault-secrets/v3.0.0) (2026-11-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* **get-vault-secrets:** remove export_env option, use JSON output always ([#1957](https://github.com/erj826/shared-workflows/issues/1957))
+
+### 🎉 Features
+
+* **get-vault-secrets:** remove export_env option, use JSON output always ([#1957](https://github.com/erj826/shared-workflows/issues/1957)) ([84e8abf](https://github.com/erj826/shared-workflows/commit/84e8abf0d3cd31cc8fa01d0e2c629a96864a108a))
+* **get-vault-secrets:** supporting v2 schema ([#2303](https://github.com/erj826/shared-workflows/issues/2303)) ([9a3914f](https://github.com/erj826/shared-workflows/commit/9a3914ffcdf8ee7d89daab29d05aaa749e98713b))
+
+
+### 🐛 Bug Fixes
+
+* **create-github-app-token:** trigger release-please for reverted gatb change ([#1988](https://github.com/erj826/shared-workflows/issues/1988)) ([e6c8753](https://github.com/erj826/shared-workflows/commit/e6c875364b041be8288bcb1bee15f79cea31ffb1))
+* **get-vault-secrets:** bound and retry the OIDC token request ([#2249](https://github.com/erj826/shared-workflows/issues/2249)) ([69f2c01](https://github.com/erj826/shared-workflows/commit/69f2c01cf9bfe3826caec182978372a8df2f37cb))
+
+
+### 📝 Documentation
+
+* generate action and workflow input/output tables ([#2276](https://github.com/erj826/shared-workflows/issues/2276)) ([ddcc1f8](https://github.com/erj826/shared-workflows/commit/ddcc1f84239514abefa7b02481bfcc24bd88c4ca))
+
+
+### 🔧 Miscellaneous Chores
+
+* **deps:** update actions/github-script action to v9 ([#1866](https://github.com/erj826/shared-workflows/issues/1866)) ([e5b7989](https://github.com/erj826/shared-workflows/commit/e5b7989c92b55fe3ac6dd006d6de49082ba8c507))
+* **deps:** update hashicorp/vault-action action to v4 ([#2045](https://github.com/erj826/shared-workflows/issues/2045)) ([753db01](https://github.com/erj826/shared-workflows/commit/753db0190710a686e3e5cf11175c50b175fb8661))
+* **main:** release get-vault-secrets 1.3.2 ([#1868](https://github.com/erj826/shared-workflows/issues/1868)) ([a53fc80](https://github.com/erj826/shared-workflows/commit/a53fc80bc30b0a16a262520465db899fa3af08b7))
+* **main:** release get-vault-secrets 2.0.0 ([#2015](https://github.com/erj826/shared-workflows/issues/2015)) ([e46fe1e](https://github.com/erj826/shared-workflows/commit/e46fe1e9a2bf9e618bcf8d8d32f3a7381b45c06d))
+* **main:** release get-vault-secrets 2.0.1 ([#2073](https://github.com/erj826/shared-workflows/issues/2073)) ([2e3743a](https://github.com/erj826/shared-workflows/commit/2e3743a1f8abfd3e921e53a7726ec0744c11bb01))
+* **main:** release get-vault-secrets 2.0.2 ([#2291](https://github.com/erj826/shared-workflows/issues/2291)) ([3b321a9](https://github.com/erj826/shared-workflows/commit/3b321a9af994a0b7d8caa3130f3cd9b5cc08fd7a))
+* **main:** release get-vault-secrets 2.1.0 ([#2304](https://github.com/erj826/shared-workflows/issues/2304)) ([2f1ddaf](https://github.com/erj826/shared-workflows/commit/2f1ddaf3ce1aa677356243d0dd584be33cfa35e3))
+
 ## [2.1.0](https://github.com/grafana/shared-workflows/compare/get-vault-secrets/v2.0.2...get-vault-secrets/v2.1.0) (2026-09-15)
 
 
