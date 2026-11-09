@@ -1,5 +1,55 @@
 # Changelog
 
+## [2.0.0](https://github.com/erj826/shared-workflows/compare/docker-build-push-image/v1.0.0...docker-build-push-image/v2.0.0) (2026-11-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* **docker-build-push-image:** remove Docker Hub support ([#2371](https://github.com/erj826/shared-workflows/issues/2371))
+
+### 🎉 Features
+
+* **docker-build-push-image:** remove Docker Hub support ([#2371](https://github.com/erj826/shared-workflows/issues/2371)) ([d60d8c5](https://github.com/erj826/shared-workflows/commit/d60d8c52b8ee47d4ecd78e7ee22e2050e8e44712))
+
+
+### 🐛 Bug Fixes
+
+* avoid noisy notice messages ([#2158](https://github.com/erj826/shared-workflows/issues/2158)) ([e3d8e4f](https://github.com/erj826/shared-workflows/commit/e3d8e4fc93c11a792dd548a113679a85d5b78493))
+* **create-github-app-token:** trigger release-please for reverted gatb change ([#1988](https://github.com/erj826/shared-workflows/issues/1988)) ([e6c8753](https://github.com/erj826/shared-workflows/commit/e6c875364b041be8288bcb1bee15f79cea31ffb1))
+* **multiple:** bump login-to-gar to v1.0.4 for login retries ([#2339](https://github.com/erj826/shared-workflows/issues/2339)) ([adfaf42](https://github.com/erj826/shared-workflows/commit/adfaf42c5d203fa57f27e9d69133efdf98a28f8a))
+* remove `s` from metadatajson ([#2086](https://github.com/erj826/shared-workflows/issues/2086)) ([8a16b96](https://github.com/erj826/shared-workflows/commit/8a16b96ee18c77596b132a2b8fac70dc6e30fd6b))
+* remove shared-workflows checkout from composite actions ([#2036](https://github.com/erj826/shared-workflows/issues/2036)) ([d6624ff](https://github.com/erj826/shared-workflows/commit/d6624ff13ea9c78935851225fd1ccabb23423be6))
+
+
+### 📝 Documentation
+
+* **docker-build-push-image:** fix old push defaults in migration guide ([#2335](https://github.com/erj826/shared-workflows/issues/2335)) ([ca9d5e7](https://github.com/erj826/shared-workflows/commit/ca9d5e729bf73dcd1d62d25bf50da17718d54364))
+* generate action and workflow input/output tables ([#2276](https://github.com/erj826/shared-workflows/issues/2276)) ([ddcc1f8](https://github.com/erj826/shared-workflows/commit/ddcc1f84239514abefa7b02481bfcc24bd88c4ca))
+
+
+### 🔧 Miscellaneous Chores
+
+* **deps:** update docker/build-push-action action to v7 ([#1785](https://github.com/erj826/shared-workflows/issues/1785)) ([490b672](https://github.com/erj826/shared-workflows/commit/490b6727050ad2740e5a8f86ac0e6c9e653fc15b))
+* **deps:** update docker/build-push-action action to v7.1.0 ([#1864](https://github.com/erj826/shared-workflows/issues/1864)) ([32404b4](https://github.com/erj826/shared-workflows/commit/32404b4f4a2a8ec646d6ee76ed3df0ab8f84bdfb))
+* **deps:** update docker/build-push-action action to v7.2.0 ([#2018](https://github.com/erj826/shared-workflows/issues/2018)) ([647de49](https://github.com/erj826/shared-workflows/commit/647de495fb2403f2261b034a1b4610904cb38bf2))
+* **deps:** update docker/build-push-action action to v7.3.0 ([#2167](https://github.com/erj826/shared-workflows/issues/2167)) ([0148978](https://github.com/erj826/shared-workflows/commit/0148978cad395f466aea349566e5fca83f0a2e9d))
+* **deps:** update docker/metadata-action action to v6 ([#1787](https://github.com/erj826/shared-workflows/issues/1787)) ([de48747](https://github.com/erj826/shared-workflows/commit/de48747bf25be41fcb04d5d6ff05cc5eed0775fe))
+* **deps:** update docker/metadata-action action to v6.1.0 ([#2021](https://github.com/erj826/shared-workflows/issues/2021)) ([ac9ad90](https://github.com/erj826/shared-workflows/commit/ac9ad908f81ccdceca9cb9f640c08a97e3073ba9))
+* **deps:** update docker/metadata-action action to v6.2.0 ([#2176](https://github.com/erj826/shared-workflows/issues/2176)) ([be284f2](https://github.com/erj826/shared-workflows/commit/be284f249b3191b688878dc5650d49285eb22dc1))
+* **deps:** update docker/setup-buildx-action action to v4 ([#1791](https://github.com/erj826/shared-workflows/issues/1791)) ([2376476](https://github.com/erj826/shared-workflows/commit/2376476a8678d5422711041823033659e4872548))
+* **deps:** update docker/setup-buildx-action action to v4.1.0 ([#2022](https://github.com/erj826/shared-workflows/issues/2022)) ([e942a3a](https://github.com/erj826/shared-workflows/commit/e942a3a5775e102da33db1bcb193cfddb3a47a26))
+* **deps:** update docker/setup-buildx-action action to v4.2.0 ([#2177](https://github.com/erj826/shared-workflows/issues/2177)) ([9a77f1c](https://github.com/erj826/shared-workflows/commit/9a77f1cb3ac7b80c354c626541aae402de36681e))
+* **deps:** update docker/setup-qemu-action action to v4 ([#1792](https://github.com/erj826/shared-workflows/issues/1792)) ([a13ffd7](https://github.com/erj826/shared-workflows/commit/a13ffd766a74b4e4861aae33dc7fcfdecb5aad5a))
+* **deps:** update docker/setup-qemu-action action to v4.1.0 ([#2023](https://github.com/erj826/shared-workflows/issues/2023)) ([4f49606](https://github.com/erj826/shared-workflows/commit/4f49606ee0350fdbbcbe95cd9a64486f89da32ae))
+* **deps:** update docker/setup-qemu-action action to v4.2.0 ([#2178](https://github.com/erj826/shared-workflows/issues/2178)) ([517b969](https://github.com/erj826/shared-workflows/commit/517b9699e0d5ab2797fb519976b72c12f7c3fcd7))
+* **deps:** update grafana/shared-workflows/dockerhub-login action to v2.0.0 ([#2096](https://github.com/erj826/shared-workflows/issues/2096)) ([b9bd9af](https://github.com/erj826/shared-workflows/commit/b9bd9af9d088e4a7abca2fdc75b0ca10f7aae9de))
+* **deps:** update grafana/shared-workflows/login-to-gar action to v1.0.3 ([#2091](https://github.com/erj826/shared-workflows/issues/2091)) ([80f6a4e](https://github.com/erj826/shared-workflows/commit/80f6a4efd0f3f38df47e42816a261e95fad0c4a8))
+* **main:** release docker-build-push-image 0.3.2 ([#1790](https://github.com/erj826/shared-workflows/issues/1790)) ([21ae57f](https://github.com/erj826/shared-workflows/commit/21ae57f82e5256e5a418406388926d4ba24bccf2))
+* **main:** release docker-build-push-image 0.3.3 ([#1873](https://github.com/erj826/shared-workflows/issues/1873)) ([34f2788](https://github.com/erj826/shared-workflows/commit/34f27887c37cafe70d34af57dfc86b468a31b8c4))
+* **main:** release docker-build-push-image 0.3.4 ([#2054](https://github.com/erj826/shared-workflows/issues/2054)) ([c66d74d](https://github.com/erj826/shared-workflows/commit/c66d74df41cf4ed28a90da1d91c263f9d1609a21))
+* **main:** release docker-build-push-image 0.3.5 ([#2088](https://github.com/erj826/shared-workflows/issues/2088)) ([210fd86](https://github.com/erj826/shared-workflows/commit/210fd8662ec62738ab1ae6d890ef3ffed5a77a86))
+* **main:** release docker-build-push-image 1.0.0 ([#2377](https://github.com/erj826/shared-workflows/issues/2377)) ([317d869](https://github.com/erj826/shared-workflows/commit/317d86931c8deacf670ceed195a81acebce14033))
+
 ## [1.0.0](https://github.com/grafana/shared-workflows/compare/docker-build-push-image/v0.3.5...docker-build-push-image/v1.0.0) (2026-11-03)
 
 
