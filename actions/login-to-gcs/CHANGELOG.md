@@ -1,5 +1,23 @@
 # Changelog
 
+## [0.3.2](https://github.com/erj826/shared-workflows/compare/login-to-gcs/v0.3.1...login-to-gcs/v0.3.2) (2026-11-09)
+
+
+### 🐛 Bug Fixes
+
+* avoid noisy notice messages ([#2158](https://github.com/erj826/shared-workflows/issues/2158)) ([e3d8e4f](https://github.com/erj826/shared-workflows/commit/e3d8e4fc93c11a792dd548a113679a85d5b78493))
+* **create-github-app-token:** trigger release-please for reverted gatb change ([#1988](https://github.com/erj826/shared-workflows/issues/1988)) ([e6c8753](https://github.com/erj826/shared-workflows/commit/e6c875364b041be8288bcb1bee15f79cea31ffb1))
+
+
+### 📝 Documentation
+
+* generate action and workflow input/output tables ([#2276](https://github.com/erj826/shared-workflows/issues/2276)) ([ddcc1f8](https://github.com/erj826/shared-workflows/commit/ddcc1f84239514abefa7b02481bfcc24bd88c4ca))
+
+
+### 🔧 Miscellaneous Chores
+
+* **main:** release login-to-gcs 0.3.1 ([#2061](https://github.com/erj826/shared-workflows/issues/2061)) ([1f02013](https://github.com/erj826/shared-workflows/commit/1f02013f3a8a0c29e3cb7dc6793158defe914569))
+
 ## [0.3.1](https://github.com/grafana/shared-workflows/compare/login-to-gcs/v0.3.0...login-to-gcs/v0.3.1) (2026-06-10)
 
 
