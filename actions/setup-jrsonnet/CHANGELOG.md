@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.0.4](https://github.com/erj826/shared-workflows/compare/setup-jrsonnet/v1.0.3...setup-jrsonnet/v1.0.4) (2026-11-09)
+
+
+### 🐛 Bug Fixes
+
+* **create-github-app-token:** trigger release-please for reverted gatb change ([#1988](https://github.com/erj826/shared-workflows/issues/1988)) ([e6c8753](https://github.com/erj826/shared-workflows/commit/e6c875364b041be8288bcb1bee15f79cea31ffb1))
+
+
+### 📝 Documentation
+
+* generate action and workflow input/output tables ([#2276](https://github.com/erj826/shared-workflows/issues/2276)) ([ddcc1f8](https://github.com/erj826/shared-workflows/commit/ddcc1f84239514abefa7b02481bfcc24bd88c4ca))
+
+
+### 🔧 Miscellaneous Chores
+
+* **deps:** update actions/cache action to v6 ([#2227](https://github.com/erj826/shared-workflows/issues/2227)) ([ddc2a23](https://github.com/erj826/shared-workflows/commit/ddc2a23ec2ab41811bb9ba72e26afc7ed72466b0))
+* **main:** release setup-jrsonnet 1.0.3 ([#2050](https://github.com/erj826/shared-workflows/issues/2050)) ([b3d9952](https://github.com/erj826/shared-workflows/commit/b3d995239390fe5b53ad3c0f5343993bf7fd95cd))
+
 ## [1.0.3](https://github.com/grafana/shared-workflows/compare/setup-jrsonnet/v1.0.2...setup-jrsonnet/v1.0.3) (2026-06-10)
 
 
