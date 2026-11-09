@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.0.6](https://github.com/erj826/shared-workflows/compare/aws-auth/v1.0.5...aws-auth/v1.0.6) (2026-11-09)
+
+
+### 🐛 Bug Fixes
+
+* **create-github-app-token:** trigger release-please for reverted gatb change ([#1988](https://github.com/erj826/shared-workflows/issues/1988)) ([e6c8753](https://github.com/erj826/shared-workflows/commit/e6c875364b041be8288bcb1bee15f79cea31ffb1))
+
+
+### 📝 Documentation
+
+* generate action and workflow input/output tables ([#2276](https://github.com/erj826/shared-workflows/issues/2276)) ([ddcc1f8](https://github.com/erj826/shared-workflows/commit/ddcc1f84239514abefa7b02481bfcc24bd88c4ca))
+
+
+### 🔧 Miscellaneous Chores
+
+* **main:** release aws-auth 1.0.4 ([#2046](https://github.com/erj826/shared-workflows/issues/2046)) ([bb04b9b](https://github.com/erj826/shared-workflows/commit/bb04b9b1c3903959957c63d1370b2d49a4b978d0))
+* **main:** release aws-auth 1.0.5 ([#2284](https://github.com/erj826/shared-workflows/issues/2284)) ([ed0f382](https://github.com/erj826/shared-workflows/commit/ed0f3823c0ca0a9e6d5c5681613e53aefd2545e8))
+
 ## [1.0.5](https://github.com/grafana/shared-workflows/compare/aws-auth/v1.0.4...aws-auth/v1.0.5) (2026-09-09)
 
 
