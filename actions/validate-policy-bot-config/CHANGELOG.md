@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.1.4](https://github.com/erj826/shared-workflows/compare/validate-policy-bot-config/v1.1.3...validate-policy-bot-config/v1.1.4) (2026-11-09)
+
+
+### 🐛 Bug Fixes
+
+* **create-github-app-token:** trigger release-please for reverted gatb change ([#1988](https://github.com/erj826/shared-workflows/issues/1988)) ([e6c8753](https://github.com/erj826/shared-workflows/commit/e6c875364b041be8288bcb1bee15f79cea31ffb1))
+
+
+### 📝 Documentation
+
+* generate action and workflow input/output tables ([#2276](https://github.com/erj826/shared-workflows/issues/2276)) ([ddcc1f8](https://github.com/erj826/shared-workflows/commit/ddcc1f84239514abefa7b02481bfcc24bd88c4ca))
+
+
+### 🔧 Miscellaneous Chores
+
+* **main:** release validate-policy-bot-config 1.1.2 ([#2059](https://github.com/erj826/shared-workflows/issues/2059)) ([9c532c9](https://github.com/erj826/shared-workflows/commit/9c532c9db4f2dd6b52eb787b22c39f19fb9ea995))
+* **main:** release validate-policy-bot-config 1.1.3 ([#2285](https://github.com/erj826/shared-workflows/issues/2285)) ([d93128d](https://github.com/erj826/shared-workflows/commit/d93128d361431bebcd0b31c23b8a16369f24bf70))
+
 ## [1.1.3](https://github.com/grafana/shared-workflows/compare/validate-policy-bot-config/v1.1.2...validate-policy-bot-config/v1.1.3) (2026-09-09)
 
 
