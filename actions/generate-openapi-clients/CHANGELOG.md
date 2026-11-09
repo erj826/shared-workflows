@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.1.2](https://github.com/erj826/shared-workflows/compare/generate-openapi-clients/v1.1.1...generate-openapi-clients/v1.1.2) (2026-11-09)
+
+
+### 🐛 Bug Fixes
+
+* **create-github-app-token:** trigger release-please for reverted gatb change ([#1988](https://github.com/erj826/shared-workflows/issues/1988)) ([e6c8753](https://github.com/erj826/shared-workflows/commit/e6c875364b041be8288bcb1bee15f79cea31ffb1))
+
+
+### 📝 Documentation
+
+* generate action and workflow input/output tables ([#2276](https://github.com/erj826/shared-workflows/issues/2276)) ([ddcc1f8](https://github.com/erj826/shared-workflows/commit/ddcc1f84239514abefa7b02481bfcc24bd88c4ca))
+
+
+### 🔧 Miscellaneous Chores
+
+* **deps:** update actions/cache action to v6 ([#2227](https://github.com/erj826/shared-workflows/issues/2227)) ([ddc2a23](https://github.com/erj826/shared-workflows/commit/ddc2a23ec2ab41811bb9ba72e26afc7ed72466b0))
+* **deps:** update stefanzweifel/git-auto-commit-action action to v7.2.0 ([#2194](https://github.com/erj826/shared-workflows/issues/2194)) ([87f28f1](https://github.com/erj826/shared-workflows/commit/87f28f11dadb56791da38d3f05b15377f948d951))
+* **main:** release generate-openapi-clients 1.1.1 ([#2003](https://github.com/erj826/shared-workflows/issues/2003)) ([1289dac](https://github.com/erj826/shared-workflows/commit/1289dacd60576c58b970dd67d434170dd7658409))
+
 ## [1.1.1](https://github.com/grafana/shared-workflows/compare/generate-openapi-clients/v1.1.0...generate-openapi-clients/v1.1.1) (2026-06-10)
 
 
