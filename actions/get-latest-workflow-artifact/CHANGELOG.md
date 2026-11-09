@@ -1,5 +1,39 @@
 # Changelog
 
+## [0.2.4](https://github.com/erj826/shared-workflows/compare/get-latest-workflow-artifact/v0.2.3...get-latest-workflow-artifact/v0.2.4) (2026-11-09)
+
+
+### 🐛 Bug Fixes
+
+* **create-github-app-token:** trigger release-please for reverted gatb change ([#1988](https://github.com/erj826/shared-workflows/issues/1988)) ([e6c8753](https://github.com/erj826/shared-workflows/commit/e6c875364b041be8288bcb1bee15f79cea31ffb1))
+* **deps:** update dependency @actions/artifact to v6.2.1 ([#1754](https://github.com/erj826/shared-workflows/issues/1754)) ([979bc5d](https://github.com/erj826/shared-workflows/commit/979bc5d3fd4ea82383d3f1362c34041687c74304))
+* **deps:** update dependency @actions/core to v3.0.1 ([#1898](https://github.com/erj826/shared-workflows/issues/1898)) ([c0e53c6](https://github.com/erj826/shared-workflows/commit/c0e53c62be90482ca6f0d15d791828942924e29b))
+* **deps:** update dependency @actions/github to v9 ([#1687](https://github.com/erj826/shared-workflows/issues/1687)) ([0a6d038](https://github.com/erj826/shared-workflows/commit/0a6d0382a92b7282ab72bb4a934225d8cb17a8ff))
+* **deps:** update dependency @actions/github to v9.1.0 ([#1862](https://github.com/erj826/shared-workflows/issues/1862)) ([aaedda8](https://github.com/erj826/shared-workflows/commit/aaedda812a5314ed1c17b35adabea9f6a9ef94fe))
+* **deps:** update dependency @actions/github to v9.1.1 ([#1899](https://github.com/erj826/shared-workflows/issues/1899)) ([e6e6160](https://github.com/erj826/shared-workflows/commit/e6e61603c4b276aa1b98788b6372c8712c19fb22))
+
+
+### 📝 Documentation
+
+* generate action and workflow input/output tables ([#2276](https://github.com/erj826/shared-workflows/issues/2276)) ([ddcc1f8](https://github.com/erj826/shared-workflows/commit/ddcc1f84239514abefa7b02481bfcc24bd88c4ca))
+
+
+### 🔧 Miscellaneous Chores
+
+* **deps:** update dependency @types/node to v24.12.2 ([#1851](https://github.com/erj826/shared-workflows/issues/1851)) ([c3ec975](https://github.com/erj826/shared-workflows/commit/c3ec975f80fd0f5c5c7fef99bba4b5b9a63e51c7))
+* **deps:** update dependency @types/node to v24.12.2 ([#1852](https://github.com/erj826/shared-workflows/issues/1852)) ([a2e4857](https://github.com/erj826/shared-workflows/commit/a2e485723e166cfec831d33751b9e5b66e2d7646))
+* **deps:** update dependency @types/node to v24.13.1 ([#1961](https://github.com/erj826/shared-workflows/issues/1961)) ([a01f3ad](https://github.com/erj826/shared-workflows/commit/a01f3ad81771c9dab677e7890bbcbbbf8aae80d4))
+* **deps:** update dependency @types/node to v24.13.2 ([#2100](https://github.com/erj826/shared-workflows/issues/2100)) ([d9b64f0](https://github.com/erj826/shared-workflows/commit/d9b64f01fa9319cdbe272ce50d03f8f61e7fa247))
+* **deps:** update dependency @types/node to v26 ([#2109](https://github.com/erj826/shared-workflows/issues/2109)) ([f22a58f](https://github.com/erj826/shared-workflows/commit/f22a58ff015a206ffeaccf4764144bedd8aecd54))
+* **deps:** update dependency @types/node to v26.1.1 ([#2154](https://github.com/erj826/shared-workflows/issues/2154)) ([4feb6db](https://github.com/erj826/shared-workflows/commit/4feb6db735ec84cf3c194905b0aa2a03bed3811f))
+* **deps:** update dependency @types/node to v26.2.0 ([#2240](https://github.com/erj826/shared-workflows/issues/2240)) ([4fce579](https://github.com/erj826/shared-workflows/commit/4fce57919a6fc109ad32f39ec938de716789bdc1))
+* **deps:** update dependency @types/node to v26.6.3 ([#2319](https://github.com/erj826/shared-workflows/issues/2319)) ([c48cd46](https://github.com/erj826/shared-workflows/commit/c48cd46fdd4860323af854742bb4e269ad741bef))
+* **deps:** update dependency @types/node to v26.6.5 ([#2332](https://github.com/erj826/shared-workflows/issues/2332)) ([fe8a43e](https://github.com/erj826/shared-workflows/commit/fe8a43e6dffbdd676eb80d9c1610f510afc813c6))
+* **deps:** update oven-sh/setup-bun action to v2.2.0 ([#1813](https://github.com/erj826/shared-workflows/issues/1813)) ([35df936](https://github.com/erj826/shared-workflows/commit/35df936028eacddfcfb6dceb1410d1766fe2933e))
+* **main:** release get-latest-workflow-artifact 0.2.2 ([#1736](https://github.com/erj826/shared-workflows/issues/1736)) ([4d8181c](https://github.com/erj826/shared-workflows/commit/4d8181c50eb5554e6c26ea2c1cfc4a84923030c4))
+* **main:** release get-latest-workflow-artifact 0.2.3 ([#1993](https://github.com/erj826/shared-workflows/issues/1993)) ([1a15187](https://github.com/erj826/shared-workflows/commit/1a15187c7528bac5f2573ce70001697d3d177011))
+* remove stale workspace lockfiles ([#2333](https://github.com/erj826/shared-workflows/issues/2333)) ([c6deb7d](https://github.com/erj826/shared-workflows/commit/c6deb7d91a8d993a8b0b41633d46801b62f96749))
+
 ## [0.2.3](https://github.com/grafana/shared-workflows/compare/get-latest-workflow-artifact/v0.2.2...get-latest-workflow-artifact/v0.2.3) (2026-06-10)
 
 
