@@ -1,5 +1,23 @@
 # Changelog
 
+## [0.1.3](https://github.com/erj826/shared-workflows/compare/remove-checkout-credentials/v0.1.2...remove-checkout-credentials/v0.1.3) (2026-11-09)
+
+
+### 🐛 Bug Fixes
+
+* **create-github-app-token:** trigger release-please for reverted gatb change ([#1988](https://github.com/erj826/shared-workflows/issues/1988)) ([e6c8753](https://github.com/erj826/shared-workflows/commit/e6c875364b041be8288bcb1bee15f79cea31ffb1))
+
+
+### 📝 Documentation
+
+* generate action and workflow input/output tables ([#2276](https://github.com/erj826/shared-workflows/issues/2276)) ([ddcc1f8](https://github.com/erj826/shared-workflows/commit/ddcc1f84239514abefa7b02481bfcc24bd88c4ca))
+
+
+### 🔧 Miscellaneous Chores
+
+* **main:** release remove-checkout-credentials 0.1.1 ([#2005](https://github.com/erj826/shared-workflows/issues/2005)) ([7df66f6](https://github.com/erj826/shared-workflows/commit/7df66f624436c6efa81d82229ec2cf3b0b3d6440))
+* **main:** release remove-checkout-credentials 0.1.2 ([#2293](https://github.com/erj826/shared-workflows/issues/2293)) ([218d739](https://github.com/erj826/shared-workflows/commit/218d73986d9877e5ef7cf5863e6e3fc46a2f129e))
+
 ## [0.1.2](https://github.com/grafana/shared-workflows/compare/remove-checkout-credentials/v0.1.1...remove-checkout-credentials/v0.1.2) (2026-09-09)
 
 
