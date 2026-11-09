@@ -1,5 +1,28 @@
 # Changelog
 
+## [0.3.3](https://github.com/erj826/shared-workflows/compare/push-to-gcs/v0.3.2...push-to-gcs/v0.3.3) (2026-11-09)
+
+
+### 🐛 Bug Fixes
+
+* avoid noisy notice messages ([#2158](https://github.com/erj826/shared-workflows/issues/2158)) ([e3d8e4f](https://github.com/erj826/shared-workflows/commit/e3d8e4fc93c11a792dd548a113679a85d5b78493))
+* **create-github-app-token:** trigger release-please for reverted gatb change ([#1988](https://github.com/erj826/shared-workflows/issues/1988)) ([e6c8753](https://github.com/erj826/shared-workflows/commit/e6c875364b041be8288bcb1bee15f79cea31ffb1))
+* reference sibling actions directly instead of checkout ([#2032](https://github.com/erj826/shared-workflows/issues/2032)) ([614ae58](https://github.com/erj826/shared-workflows/commit/614ae58b964b32c08d190dde334a583cc8373723))
+
+
+### 📝 Documentation
+
+* generate action and workflow input/output tables ([#2276](https://github.com/erj826/shared-workflows/issues/2276)) ([ddcc1f8](https://github.com/erj826/shared-workflows/commit/ddcc1f84239514abefa7b02481bfcc24bd88c4ca))
+
+
+### 🔧 Miscellaneous Chores
+
+* **deps:** update grafana/shared-workflows/login-to-gcs action to v0.3.1 ([#2094](https://github.com/erj826/shared-workflows/issues/2094)) ([6d9951c](https://github.com/erj826/shared-workflows/commit/6d9951c9b47c3b4d659c9ef227fc4c154acf2b02))
+* **main:** release push-to-gcs 0.3.1 ([#1544](https://github.com/erj826/shared-workflows/issues/1544)) ([bc692dc](https://github.com/erj826/shared-workflows/commit/bc692dca3f6e354bc565ae8f6e622f24a6162b66))
+* **main:** release push-to-gcs 0.3.2 ([#2053](https://github.com/erj826/shared-workflows/issues/2053)) ([088e23a](https://github.com/erj826/shared-workflows/commit/088e23a5f09be7b85cedbf89f119244125878ad9))
+* **main:** release push-to-gcs 0.3.2 ([#2063](https://github.com/erj826/shared-workflows/issues/2063)) ([872ea72](https://github.com/erj826/shared-workflows/commit/872ea72d5d58e24fce5b9ce004dbd03b243efdf7))
+* **main:** release push-to-gcs 0.3.2 ([#2070](https://github.com/erj826/shared-workflows/issues/2070)) ([570b023](https://github.com/erj826/shared-workflows/commit/570b0238e7f3240cff9b4c6c4516a6b925688223))
+
 ## [0.3.2](https://github.com/grafana/shared-workflows/compare/push-to-gcs/v0.3.1...push-to-gcs/v0.3.2) (2026-06-10)
 
 
