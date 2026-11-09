@@ -1,5 +1,68 @@
 # Changelog
 
+## [1.1.4](https://github.com/erj826/shared-workflows/compare/dependabot-auto-triage/v1.1.3...dependabot-auto-triage/v1.1.4) (2026-11-09)
+
+
+### 🐛 Bug Fixes
+
+* **create-github-app-token:** trigger release-please for reverted gatb change ([#1988](https://github.com/erj826/shared-workflows/issues/1988)) ([e6c8753](https://github.com/erj826/shared-workflows/commit/e6c875364b041be8288bcb1bee15f79cea31ffb1))
+* **deps:** update dependency minimatch to v10.2.5 ([#1845](https://github.com/erj826/shared-workflows/issues/1845)) ([bddce33](https://github.com/erj826/shared-workflows/commit/bddce3319c879a3ea289ee6c76fbc9ac08d53524))
+* **deps:** update dependency minimatch to v10.2.6 ([#2241](https://github.com/erj826/shared-workflows/issues/2241)) ([1c912fa](https://github.com/erj826/shared-workflows/commit/1c912fa9adb848a1839c7e7303d284117dfbfdaf))
+* **deps:** update octokit monorepo ([#2271](https://github.com/erj826/shared-workflows/issues/2271)) ([782f572](https://github.com/erj826/shared-workflows/commit/782f5721018875662580acdf7ecf4510424abe62))
+* **deps:** update octokit monorepo ([#2317](https://github.com/erj826/shared-workflows/issues/2317)) ([f6df5e3](https://github.com/erj826/shared-workflows/commit/f6df5e35ed37640d33f2ebb7c11286daf6a3d0db))
+* **security/medium/actions/dependabot-auto-triage:** update dependency minimatch to v11 [security] ([#2370](https://github.com/erj826/shared-workflows/issues/2370)) ([70f10eb](https://github.com/erj826/shared-workflows/commit/70f10ebc1b7f9a60a409a256928968881d510f22))
+
+
+### 📝 Documentation
+
+* **dependabot-auto-triage:** use GATB in README example ([#2329](https://github.com/erj826/shared-workflows/issues/2329)) ([6d11e00](https://github.com/erj826/shared-workflows/commit/6d11e00ae903cc53c7875ea6b45a24db9f2a78f8))
+* generate action and workflow input/output tables ([#2276](https://github.com/erj826/shared-workflows/issues/2276)) ([ddcc1f8](https://github.com/erj826/shared-workflows/commit/ddcc1f84239514abefa7b02481bfcc24bd88c4ca))
+
+
+### 🔧 Miscellaneous Chores
+
+* **deps:** update dependency @types/bun to v1.3.11 ([#1821](https://github.com/erj826/shared-workflows/issues/1821)) ([1fadd8e](https://github.com/erj826/shared-workflows/commit/1fadd8eb601fb29af58db04f86574df1cd333158))
+* **deps:** update dependency @types/bun to v1.3.12 ([#1869](https://github.com/erj826/shared-workflows/issues/1869)) ([22fccea](https://github.com/erj826/shared-workflows/commit/22fccea88c3eaa188bd72830692e06cf1c9d660b))
+* **deps:** update dependency @types/bun to v1.3.13 ([#1900](https://github.com/erj826/shared-workflows/issues/1900)) ([e0514ff](https://github.com/erj826/shared-workflows/commit/e0514fff401fb2502e2c3e2c0a3bbefb6ce67c3d))
+* **deps:** update dependency @types/bun to v1.3.14 ([#1979](https://github.com/erj826/shared-workflows/issues/1979)) ([6c0316c](https://github.com/erj826/shared-workflows/commit/6c0316cecb4e52b7e6439f5719c442f32d7ada61))
+* **deps:** update dependency @types/bun to v1.4.2 ([#2274](https://github.com/erj826/shared-workflows/issues/2274)) ([79b8be8](https://github.com/erj826/shared-workflows/commit/79b8be8543a7fd2d02c7a5c14f719fa15b1e4dfb))
+* **deps:** update dependency @types/bun to v1.4.4 ([#2357](https://github.com/erj826/shared-workflows/issues/2357)) ([865cbe5](https://github.com/erj826/shared-workflows/commit/865cbe56fe78f536cf954a81732cf8eee2e2fc66))
+* **deps:** update dependency eslint to v10.1.0 ([#1826](https://github.com/erj826/shared-workflows/issues/1826)) ([8f31e7d](https://github.com/erj826/shared-workflows/commit/8f31e7d599245f060935dce12b2813cc646c889b))
+* **deps:** update dependency eslint to v10.13.0 ([#2322](https://github.com/erj826/shared-workflows/issues/2322)) ([59a7fe7](https://github.com/erj826/shared-workflows/commit/59a7fe74522a10b55e2fc2175a5c420b37e721a3))
+* **deps:** update dependency eslint to v10.2.0 ([#1856](https://github.com/erj826/shared-workflows/issues/1856)) ([d84db42](https://github.com/erj826/shared-workflows/commit/d84db42bd50249775496f814bd875a476849028e))
+* **deps:** update dependency eslint to v10.2.1 ([#1889](https://github.com/erj826/shared-workflows/issues/1889)) ([3e31f3c](https://github.com/erj826/shared-workflows/commit/3e31f3ccf58fe61e6869414a8afd0c78ccb84c99))
+* **deps:** update dependency eslint to v10.4.1 ([#1968](https://github.com/erj826/shared-workflows/issues/1968)) ([a576c09](https://github.com/erj826/shared-workflows/commit/a576c0989b6ed6d5c623db6e2d7e0ca8a0ef3dce))
+* **deps:** update dependency eslint to v10.7.0 ([#2155](https://github.com/erj826/shared-workflows/issues/2155)) ([8284f00](https://github.com/erj826/shared-workflows/commit/8284f008365a5703c954f4a1dd72c908563c14fe))
+* **deps:** update dependency eslint to v10.8.0 ([#2217](https://github.com/erj826/shared-workflows/issues/2217)) ([2ec03f8](https://github.com/erj826/shared-workflows/commit/2ec03f807c17d47646a87c03051e9caea8267029))
+* **deps:** update dependency eslint to v10.9.0 ([#2261](https://github.com/erj826/shared-workflows/issues/2261)) ([fc97070](https://github.com/erj826/shared-workflows/commit/fc9707096d8f5edd2e7260031fbf2026488386c6))
+* **deps:** update dependency eslint-plugin-jest to v29.15.1 ([#1834](https://github.com/erj826/shared-workflows/issues/1834)) ([88fe06e](https://github.com/erj826/shared-workflows/commit/88fe06e458373873ef78acd60ec9ded5e1070ee7))
+* **deps:** update dependency eslint-plugin-jest to v29.15.2 ([#1865](https://github.com/erj826/shared-workflows/issues/1865)) ([c283c63](https://github.com/erj826/shared-workflows/commit/c283c63e9fe73dbb2876cc9b84a51e45721ccfd4))
+* **deps:** update dependency eslint-plugin-jest to v29.15.4 ([#2126](https://github.com/erj826/shared-workflows/issues/2126)) ([a6402b5](https://github.com/erj826/shared-workflows/commit/a6402b5f7d1781ace3d511393908ce50b0baf340))
+* **deps:** update dependency eslint-plugin-jest to v29.16.0 ([#2215](https://github.com/erj826/shared-workflows/issues/2215)) ([976b8f7](https://github.com/erj826/shared-workflows/commit/976b8f76f63d9d3654c89f877a1ca67c55a6ecfa))
+* **deps:** update dependency eslint-plugin-jest to v29.16.1 ([#2262](https://github.com/erj826/shared-workflows/issues/2262)) ([692a0fa](https://github.com/erj826/shared-workflows/commit/692a0fac7ee40fc3ec23b413148eb690be61bac0))
+* **deps:** update dependency eslint-plugin-jest to v29.16.6 ([#2308](https://github.com/erj826/shared-workflows/issues/2308)) ([cd3c3dd](https://github.com/erj826/shared-workflows/commit/cd3c3dd0b05b6b972aeb5826a4777f77ccae3d50))
+* **deps:** update dependency eslint-plugin-prettier to v5.5.6 ([#1983](https://github.com/erj826/shared-workflows/issues/1983)) ([d334c0c](https://github.com/erj826/shared-workflows/commit/d334c0cb1c9ec8c7724d399ff158ff834f8af50d))
+* **deps:** update dependency eslint-plugin-prettier to v5.5.7 ([#2361](https://github.com/erj826/shared-workflows/issues/2361)) ([8806ea5](https://github.com/erj826/shared-workflows/commit/8806ea575a1653fd68c04084ba47058bce056315))
+* **deps:** update dependency typescript to v6 ([#1832](https://github.com/erj826/shared-workflows/issues/1832)) ([c9eaddf](https://github.com/erj826/shared-workflows/commit/c9eaddf251a560fe388bed783ef3175c0f98e753))
+* **deps:** update dependency typescript to v6.0.3 ([#1885](https://github.com/erj826/shared-workflows/issues/1885)) ([9cdee92](https://github.com/erj826/shared-workflows/commit/9cdee92954d9fd3c870c382f3e98f6e93d6da880))
+* **deps:** update dependency typescript-eslint to v8.57.0 ([#1794](https://github.com/erj826/shared-workflows/issues/1794)) ([45e6c6e](https://github.com/erj826/shared-workflows/commit/45e6c6efec7ed4cacef8b35ee2beec961783d92c))
+* **deps:** update dependency typescript-eslint to v8.57.2 ([#1833](https://github.com/erj826/shared-workflows/issues/1833)) ([1d18cd9](https://github.com/erj826/shared-workflows/commit/1d18cd983976d3025eaabf9c82d6bcb095eb365c))
+* **deps:** update dependency typescript-eslint to v8.58.1 ([#1846](https://github.com/erj826/shared-workflows/issues/1846)) ([2dcd7dc](https://github.com/erj826/shared-workflows/commit/2dcd7dce34a73993ebb099815b767930081a7e6b))
+* **deps:** update dependency typescript-eslint to v8.59.1 ([#1878](https://github.com/erj826/shared-workflows/issues/1878)) ([8929c30](https://github.com/erj826/shared-workflows/commit/8929c30de5a982d7d683d99d4814b1dc88455a6c))
+* **deps:** update dependency typescript-eslint to v8.60.0 ([#1963](https://github.com/erj826/shared-workflows/issues/1963)) ([2a52b7c](https://github.com/erj826/shared-workflows/commit/2a52b7ce8e321cada46e4abcf4c6208319d3cf90))
+* **deps:** update dependency typescript-eslint to v8.60.1 ([#2039](https://github.com/erj826/shared-workflows/issues/2039)) ([5daec6a](https://github.com/erj826/shared-workflows/commit/5daec6a5107df8208998e3351ca28220f87e438e))
+* **deps:** update dependency typescript-eslint to v8.62.1 ([#2105](https://github.com/erj826/shared-workflows/issues/2105)) ([3ba0929](https://github.com/erj826/shared-workflows/commit/3ba09292e05edb23ef21265eaaaf2267f33f853b))
+* **deps:** update dependency typescript-eslint to v8.63.0 ([#2160](https://github.com/erj826/shared-workflows/issues/2160)) ([86e65f7](https://github.com/erj826/shared-workflows/commit/86e65f7130d6e52d79f4b56a925b431c4aaea359))
+* **deps:** update dependency typescript-eslint to v8.64.0 ([#2171](https://github.com/erj826/shared-workflows/issues/2171)) ([9c30359](https://github.com/erj826/shared-workflows/commit/9c30359d4fed0f1b4d1fc728bd61890d273cccc9))
+* **deps:** update dependency typescript-eslint to v8.65.0 ([#2216](https://github.com/erj826/shared-workflows/issues/2216)) ([1dbcae6](https://github.com/erj826/shared-workflows/commit/1dbcae6151956b0b33776825f16f5a6db3d46b86))
+* **deps:** update eslint monorepo to v10 (major) ([#1706](https://github.com/erj826/shared-workflows/issues/1706)) ([bdb48f8](https://github.com/erj826/shared-workflows/commit/bdb48f8958471b79cdb98c06427126f45e018af5))
+* **deps:** update eslint monorepo to v10.5.0 ([#2101](https://github.com/erj826/shared-workflows/issues/2101)) ([849fabd](https://github.com/erj826/shared-workflows/commit/849fabda9b23ba8862563b4a15b979954d80e928))
+* **deps:** update oven-sh/setup-bun action to v2.2.0 ([#1813](https://github.com/erj826/shared-workflows/issues/1813)) ([35df936](https://github.com/erj826/shared-workflows/commit/35df936028eacddfcfb6dceb1410d1766fe2933e))
+* **deps:** update typescript-eslint monorepo to v8.61.0 ([#2079](https://github.com/erj826/shared-workflows/issues/2079)) ([a8f4c63](https://github.com/erj826/shared-workflows/commit/a8f4c6350ca3f41fafeff7b4a01f774e5d336746))
+* **main:** release dependabot-auto-triage 1.1.2 ([#1531](https://github.com/erj826/shared-workflows/issues/1531)) ([b183e56](https://github.com/erj826/shared-workflows/commit/b183e56160817aa5ae26fa4867145efdc2c2a3fd))
+* **main:** release dependabot-auto-triage 1.1.3 ([#1982](https://github.com/erj826/shared-workflows/issues/1982)) ([0382e55](https://github.com/erj826/shared-workflows/commit/0382e554932b67974029abaab5cf77a2e038ab0a))
+* remove stale workspace lockfiles ([#2333](https://github.com/erj826/shared-workflows/issues/2333)) ([c6deb7d](https://github.com/erj826/shared-workflows/commit/c6deb7d91a8d993a8b0b41633d46801b62f96749))
+
 ## [1.1.3](https://github.com/grafana/shared-workflows/compare/dependabot-auto-triage/v1.1.2...dependabot-auto-triage/v1.1.3) (2026-06-10)
 
 
