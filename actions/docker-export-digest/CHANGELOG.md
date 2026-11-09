@@ -1,5 +1,26 @@
 # Changelog
 
+## [0.1.6](https://github.com/erj826/shared-workflows/compare/docker-export-digest/v0.1.5...docker-export-digest/v0.1.6) (2026-11-09)
+
+
+### 🐛 Bug Fixes
+
+* **create-github-app-token:** trigger release-please for reverted gatb change ([#1988](https://github.com/erj826/shared-workflows/issues/1988)) ([e6c8753](https://github.com/erj826/shared-workflows/commit/e6c875364b041be8288bcb1bee15f79cea31ffb1))
+
+
+### 📝 Documentation
+
+* generate action and workflow input/output tables ([#2276](https://github.com/erj826/shared-workflows/issues/2276)) ([ddcc1f8](https://github.com/erj826/shared-workflows/commit/ddcc1f84239514abefa7b02481bfcc24bd88c4ca))
+
+
+### 🔧 Miscellaneous Chores
+
+* **deps:** update actions/upload-artifact action to v7.0.1 ([#1870](https://github.com/erj826/shared-workflows/issues/1870)) ([eb06a23](https://github.com/erj826/shared-workflows/commit/eb06a232083bce1c63e34470857190afdc8e4e89))
+* **deps:** update actions/upload-artifact action to v7.0.2 ([#2356](https://github.com/erj826/shared-workflows/issues/2356)) ([e2e2a50](https://github.com/erj826/shared-workflows/commit/e2e2a50a30c6a6a945b23830036f00d2f1b6d92c))
+* **main:** release docker-export-digest 0.1.3 ([#1763](https://github.com/erj826/shared-workflows/issues/1763)) ([89f8e44](https://github.com/erj826/shared-workflows/commit/89f8e44efc54500588fcdd9a4926c14051ef78da))
+* **main:** release docker-export-digest 0.1.4 ([#2014](https://github.com/erj826/shared-workflows/issues/2014)) ([015e805](https://github.com/erj826/shared-workflows/commit/015e80562a04751edab840263e21561807c88c76))
+* **main:** release docker-export-digest 0.1.5 ([#2289](https://github.com/erj826/shared-workflows/issues/2289)) ([203d59d](https://github.com/erj826/shared-workflows/commit/203d59d1f1962cf24e4e3b288eb6492754f0f53f))
+
 ## [0.1.5](https://github.com/grafana/shared-workflows/compare/docker-export-digest/v0.1.4...docker-export-digest/v0.1.5) (2026-09-09)
 
 
